@@ -1,0 +1,875 @@
+2020-06-12 19:23:11 - 
+2020-06-12 19:23:11 - ### WoTBR2J 1.9.1.0 BATTLE FILE CONVERT TO JSON ###
+2020-06-12 19:23:11 - Time: 2020-06-12 19:23:11.317000
+2020-06-12 19:23:11 - Encoding: ascii - mbcs
+2020-06-12 19:23:11 - Logging to file: D:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-06-12 19:23:11 - Processing file: 558836966721237.dat
+2020-06-12 19:23:11 - Start processing
+2020-06-12 19:23:11 - Failed processing battle: {'error': AttributeError("'Meta' object has no attribute 'unpackWthoutChecksum'",)}
+2020-06-12 19:23:11 - Battle result cannot be read
+2020-06-12 19:24:09 - 
+2020-06-12 19:24:09 - ### WoTBR2J 1.9.1.0 BATTLE FILE CONVERT TO JSON ###
+2020-06-12 19:24:09 - Time: 2020-06-12 19:24:09.936000
+2020-06-12 19:24:09 - Encoding: ascii - mbcs
+2020-06-12 19:24:09 - Logging to file: D:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-06-12 19:24:09 - Processing file: 558836966721237.dat
+2020-06-12 19:24:09 - Start processing
+2020-06-12 19:24:09 - Failed processing battle: {'error': AttributeError("'Meta' object has no attribute 'unpackWthoutChecksum'",)}
+2020-06-12 19:24:09 - Battle result cannot be read
+2020-06-12 19:24:25 - 
+2020-06-12 19:24:25 - ### WoTBR2J 1.9.1.0 BATTLE FILE CONVERT TO JSON ###
+2020-06-12 19:24:25 - Time: 2020-06-12 19:24:25.007000
+2020-06-12 19:24:25 - Encoding: ascii - mbcs
+2020-06-12 19:24:25 - Logging to file: D:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-06-12 19:24:25 - Processing file: 558836966721237.dat
+2020-06-12 19:24:25 - Start processing
+2020-06-12 19:24:25 - Failed processing battle: {'error': AttributeError("'Meta' object has no attribute 'unpackWthoutChecksum'",)}
+2020-06-12 19:24:25 - Battle result cannot be read
+2020-06-12 19:25:28 - 
+2020-06-12 19:25:28 - ### WoTBR2J 1.9.1.0 BATTLE FILE CONVERT TO JSON ###
+2020-06-12 19:25:28 - Time: 2020-06-12 19:25:28.367000
+2020-06-12 19:25:28 - Encoding: ascii - mbcs
+2020-06-12 19:25:28 - Logging to file: D:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-06-12 19:25:28 - Processing file: 558836966721237.dat
+2020-06-12 19:25:28 - Start processing
+2020-06-12 19:25:28 - Exception: key ('a15x15', 'frags') is not a string
+2020-06-12 19:25:28 - Traceback (most recent call last):
+  File "D:\Dev\WoT Battle Parser\wotbr2j.py", line 274, in dumpjson
+    finalfile.write(json.dumps(bresult, ensure_ascii=False, sort_keys=True, indent=4))
+  File "C:\Programs\Python2\lib\json\__init__.py", line 251, in dumps
+    sort_keys=sort_keys, **kw).encode(obj)
+  File "C:\Programs\Python2\lib\json\encoder.py", line 209, in encode
+    chunks = list(chunks)
+  File "C:\Programs\Python2\lib\json\encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "C:\Programs\Python2\lib\json\encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "C:\Programs\Python2\lib\json\encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "C:\Programs\Python2\lib\json\encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "C:\Programs\Python2\lib\json\encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "C:\Programs\Python2\lib\json\encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "C:\Programs\Python2\lib\json\encoder.py", line 382, in _iterencode_dict
+    raise TypeError("key " + repr(key) + " is not a string")
+TypeError: key ('a15x15', 'frags') is not a string
+
+2020-06-12 19:26:41 - 
+2020-06-12 19:26:41 - ### WoTBR2J 1.9.1.0 BATTLE FILE CONVERT TO JSON ###
+2020-06-12 19:26:41 - Time: 2020-06-12 19:26:41.474000
+2020-06-12 19:26:41 - Encoding: ascii - mbcs
+2020-06-12 19:26:41 - Logging to file: D:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-06-12 19:26:41 - Processing file: 558836966721237.dat
+2020-06-12 19:26:46 - Start processing
+2020-06-12 19:29:52 - Exception: key ('a15x15', 'frags') is not a string
+2020-06-12 19:29:52 - Traceback (most recent call last):
+  File "D:\Dev\WoT Battle Parser\wotbr2j.py", line 274, in dumpjson
+    finalfile.write(json.dumps(bresult, ensure_ascii=False, sort_keys=True, indent=4))
+  File "C:\Programs\Python2\lib\json\__init__.py", line 251, in dumps
+    sort_keys=sort_keys, **kw).encode(obj)
+  File "C:\Programs\Python2\lib\json\encoder.py", line 209, in encode
+    chunks = list(chunks)
+  File "C:\Programs\Python2\lib\json\encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "C:\Programs\Python2\lib\json\encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "C:\Programs\Python2\lib\json\encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "C:\Programs\Python2\lib\json\encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "C:\Programs\Python2\lib\json\encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "C:\Programs\Python2\lib\json\encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "C:\Programs\Python2\lib\json\encoder.py", line 382, in _iterencode_dict
+    raise TypeError("key " + repr(key) + " is not a string")
+TypeError: key ('a15x15', 'frags') is not a string
+
+2020-06-12 19:30:16 - 
+2020-06-12 19:30:16 - ### WoTBR2J 1.9.1.0 BATTLE FILE CONVERT TO JSON ###
+2020-06-12 19:30:16 - Time: 2020-06-12 19:30:16.569000
+2020-06-12 19:30:16 - Encoding: ascii - mbcs
+2020-06-12 19:30:16 - Logging to file: D:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-06-12 19:30:16 - Processing file: 558836966721237.dat
+2020-06-12 19:30:18 - Start processing
+2020-06-12 19:30:20 - Exception: keys must be a string
+2020-06-12 19:30:20 - Traceback (most recent call last):
+  File "D:\Dev\WoT Battle Parser\wotbr2j.py", line 276, in dumpjson
+    finalfile.write(json.dumps(bresult, ensure_ascii=False))
+  File "C:\Programs\Python2\lib\json\__init__.py", line 251, in dumps
+    sort_keys=sort_keys, **kw).encode(obj)
+  File "C:\Programs\Python2\lib\json\encoder.py", line 207, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Programs\Python2\lib\json\encoder.py", line 270, in iterencode
+    return _iterencode(o, 0)
+TypeError: keys must be a string
+
+2020-06-13 10:07:58 - 
+2020-06-13 10:07:58 - ### WoTBR2J 1.9.1.0 BATTLE FILE CONVERT TO JSON ###
+2020-06-13 10:07:58 - Time: 2020-06-13 10:07:58.774000
+2020-06-13 10:07:58 - Encoding: ascii - mbcs
+2020-06-13 10:07:58 - Logging to file: D:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-06-13 10:07:58 - Processing file: 558836966721237.dat
+2020-06-13 10:08:05 - Start processing
+2020-06-13 10:12:18 - 
+2020-06-13 10:12:18 - ### WoTBR2J 1.9.1.0 BATTLE FILE CONVERT TO JSON ###
+2020-06-13 10:12:18 - Time: 2020-06-13 10:12:18.582000
+2020-06-13 10:12:18 - Encoding: ascii - mbcs
+2020-06-13 10:12:18 - Logging to file: D:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-06-13 10:12:18 - Processing file: 558836966721237.dat
+2020-06-13 10:12:21 - Start processing
+2020-06-13 10:12:24 - Exception: keys must be a string
+2020-06-13 10:12:24 - Traceback (most recent call last):
+  File "D:\Dev\WoT Battle Parser\wotbr2j.py", line 276, in dumpjson
+    finalfile.write(json.dumps(bresult, ensure_ascii=False))
+  File "C:\Programs\Python2\lib\json\__init__.py", line 251, in dumps
+    sort_keys=sort_keys, **kw).encode(obj)
+  File "C:\Programs\Python2\lib\json\encoder.py", line 207, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Programs\Python2\lib\json\encoder.py", line 270, in iterencode
+    return _iterencode(o, 0)
+TypeError: keys must be a string
+
+2020-06-13 10:26:39 - 
+2020-06-13 10:26:39 - ### WoTBR2J 1.9.1.0 BATTLE FILE CONVERT TO JSON ###
+2020-06-13 10:26:39 - Time: 2020-06-13 10:26:39.395000
+2020-06-13 10:26:39 - Encoding: ascii - mbcs
+2020-06-13 10:26:39 - Logging to file: D:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-06-13 10:26:39 - Processing file: 558836966721237.dat
+2020-06-13 10:26:44 - Start processing
+2020-06-13 10:27:14 - Exception: keys must be a string
+2020-06-13 10:27:14 - Traceback (most recent call last):
+  File "D:\Dev\WoT Battle Parser\wotbr2j.py", line 276, in dumpjson
+    finalfile.write(json.dumps(bresult, ensure_ascii=False))
+  File "C:\Programs\Python2\lib\json\__init__.py", line 251, in dumps
+    sort_keys=sort_keys, **kw).encode(obj)
+  File "C:\Programs\Python2\lib\json\encoder.py", line 207, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Programs\Python2\lib\json\encoder.py", line 270, in iterencode
+    return _iterencode(o, 0)
+TypeError: keys must be a string
+
+2020-06-13 10:28:25 - 
+2020-06-13 10:28:25 - ### WoTBR2J 1.9.1.0 BATTLE FILE CONVERT TO JSON ###
+2020-06-13 10:28:25 - Time: 2020-06-13 10:28:25.053000
+2020-06-13 10:28:25 - Encoding: ascii - mbcs
+2020-06-13 10:28:25 - Logging to file: D:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-06-13 10:28:25 - Processing file: 558836966721237.dat
+2020-06-13 10:28:25 - Start processing
+2020-06-13 10:28:54 - Exception: keys must be a string
+2020-06-13 10:29:01 - Traceback (most recent call last):
+  File "D:\Dev\WoT Battle Parser\wotbr2j.py", line 276, in dumpjson
+    finalfile.write(json.dumps(bresult, ensure_ascii=False))
+  File "C:\Programs\Python2\lib\json\__init__.py", line 251, in dumps
+    sort_keys=sort_keys, **kw).encode(obj)
+  File "C:\Programs\Python2\lib\json\encoder.py", line 207, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Programs\Python2\lib\json\encoder.py", line 270, in iterencode
+    return _iterencode(o, 0)
+TypeError: keys must be a string
+
+2020-06-13 10:33:09 - 
+2020-06-13 10:33:09 - ### WoTBR2J 1.9.1.0 BATTLE FILE CONVERT TO JSON ###
+2020-06-13 10:33:09 - Time: 2020-06-13 10:33:09.271000
+2020-06-13 10:33:09 - Encoding: ascii - mbcs
+2020-06-13 10:33:09 - Logging to file: D:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-06-13 10:33:09 - Processing file: 558836966721237.dat
+2020-06-13 10:34:49 - Start processing
+2020-06-13 10:36:06 - Exception: keys must be a string
+2020-06-13 10:36:06 - Traceback (most recent call last):
+  File "D:\Dev\WoT Battle Parser\wotbr2j.py", line 275, in dumpjson
+    finalfile.write(json.dumps(bresult, ensure_ascii=False))
+  File "C:\Programs\Python2\lib\json\__init__.py", line 251, in dumps
+    sort_keys=sort_keys, **kw).encode(obj)
+  File "C:\Programs\Python2\lib\json\encoder.py", line 207, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Programs\Python2\lib\json\encoder.py", line 270, in iterencode
+    return _iterencode(o, 0)
+TypeError: keys must be a string
+
+2020-06-13 10:43:27 - 
+2020-06-13 10:43:27 - ### WoTBR2J 1.9.1.0 BATTLE FILE CONVERT TO JSON ###
+2020-06-13 10:43:27 - Time: 2020-06-13 10:43:27.198000
+2020-06-13 10:43:27 - Encoding: ascii - mbcs
+2020-06-13 10:43:27 - Logging to file: D:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-06-13 10:43:27 - Processing file: 558836966721237.dat
+2020-06-13 10:43:33 - Start processing
+2020-06-13 10:43:33 - Exception: keys must be a string
+2020-06-13 10:43:33 - Traceback (most recent call last):
+  File "D:\Dev\WoT Battle Parser\wotbr2j.py", line 275, in dumpjson
+    finalfile.write(json.dumps(bresult, ensure_ascii=False))
+  File "C:\Programs\Python2\lib\json\__init__.py", line 251, in dumps
+    sort_keys=sort_keys, **kw).encode(obj)
+  File "C:\Programs\Python2\lib\json\encoder.py", line 207, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Programs\Python2\lib\json\encoder.py", line 270, in iterencode
+    return _iterencode(o, 0)
+TypeError: keys must be a string
+
+2020-06-13 10:44:22 - 
+2020-06-13 10:44:22 - ### WoTBR2J 1.9.1.0 BATTLE FILE CONVERT TO JSON ###
+2020-06-13 10:44:22 - Time: 2020-06-13 10:44:22.945000
+2020-06-13 10:44:22 - Encoding: ascii - mbcs
+2020-06-13 10:44:22 - Logging to file: D:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-06-13 10:44:22 - Processing file: 558836966721237.dat
+2020-06-13 10:44:22 - Start processing
+2020-06-13 10:45:07 - Exception: keys must be a string
+2020-06-13 10:45:07 - Traceback (most recent call last):
+  File "D:\Dev\WoT Battle Parser\wotbr2j.py", line 275, in dumpjson
+    finalfile.write(json.dumps(bresult, ensure_ascii=False))
+  File "C:\Programs\Python2\lib\json\__init__.py", line 251, in dumps
+    sort_keys=sort_keys, **kw).encode(obj)
+  File "C:\Programs\Python2\lib\json\encoder.py", line 207, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Programs\Python2\lib\json\encoder.py", line 270, in iterencode
+    return _iterencode(o, 0)
+TypeError: keys must be a string
+
+2020-06-13 10:48:02 - 
+2020-06-13 10:48:02 - ### WoTBR2J 1.9.1.0 BATTLE FILE CONVERT TO JSON ###
+2020-06-13 10:48:02 - Time: 2020-06-13 10:48:02.933000
+2020-06-13 10:48:02 - Encoding: ascii - mbcs
+2020-06-13 10:48:02 - Logging to file: D:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-06-13 10:48:02 - Processing file: 558836966721237.dat
+2020-06-13 10:48:02 - Start processing
+2020-06-13 11:00:34 - Exception: keys must be a string
+2020-06-13 11:00:34 - Traceback (most recent call last):
+  File "D:\Dev\WoT Battle Parser\wotbr2j.py", line 275, in dumpjson
+    finalfile.write(json.dumps(bresult, ensure_ascii=False))
+  File "C:\Programs\Python2\lib\json\__init__.py", line 251, in dumps
+    sort_keys=sort_keys, **kw).encode(obj)
+  File "C:\Programs\Python2\lib\json\encoder.py", line 207, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Programs\Python2\lib\json\encoder.py", line 270, in iterencode
+    return _iterencode(o, 0)
+TypeError: keys must be a string
+
+2020-06-13 11:07:06 - 
+2020-06-13 11:07:06 - ### WoTBR2J 1.9.1.0 BATTLE FILE CONVERT TO JSON ###
+2020-06-13 11:07:06 - Time: 2020-06-13 11:07:06.189000
+2020-06-13 11:07:06 - Encoding: ascii - mbcs
+2020-06-13 11:07:06 - Logging to file: D:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-06-13 11:07:06 - Processing file: 558836966721237.dat
+2020-06-13 11:07:06 - Start processing
+2020-06-13 11:07:14 - Exception: keys must be a string
+2020-06-13 11:07:14 - Traceback (most recent call last):
+  File "D:\Dev\WoT Battle Parser\wotbr2j.py", line 275, in dumpjson
+    finalfile.write(json.dumps(bresult, ensure_ascii=False))
+  File "C:\Programs\Python2\lib\json\__init__.py", line 251, in dumps
+    sort_keys=sort_keys, **kw).encode(obj)
+  File "C:\Programs\Python2\lib\json\encoder.py", line 207, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Programs\Python2\lib\json\encoder.py", line 270, in iterencode
+    return _iterencode(o, 0)
+TypeError: keys must be a string
+
+2020-06-13 11:09:54 - 
+2020-06-13 11:09:54 - ### WoTBR2J 1.9.1.0 BATTLE FILE CONVERT TO JSON ###
+2020-06-13 11:09:54 - Time: 2020-06-13 11:09:54.381000
+2020-06-13 11:09:54 - Encoding: ascii - mbcs
+2020-06-13 11:09:54 - Logging to file: D:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-06-13 11:09:54 - Processing file: 558836966721237.dat
+2020-06-13 11:09:54 - Start processing
+2020-06-13 11:10:00 - Exception: keys must be a string
+2020-06-13 11:10:00 - Traceback (most recent call last):
+  File "D:\Dev\WoT Battle Parser\wotbr2j.py", line 276, in dumpjson
+    finalfile.write(json.dumps(bresult, ensure_ascii=False))
+  File "C:\Programs\Python2\lib\json\__init__.py", line 251, in dumps
+    sort_keys=sort_keys, **kw).encode(obj)
+  File "C:\Programs\Python2\lib\json\encoder.py", line 207, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Programs\Python2\lib\json\encoder.py", line 270, in iterencode
+    return _iterencode(o, 0)
+TypeError: keys must be a string
+
+2020-06-13 11:12:21 - 
+2020-06-13 11:12:21 - ### WoTBR2J 1.9.1.0 BATTLE FILE CONVERT TO JSON ###
+2020-06-13 11:12:21 - Time: 2020-06-13 11:12:21.645000
+2020-06-13 11:12:21 - Encoding: ascii - mbcs
+2020-06-13 11:12:21 - Logging to file: D:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-06-13 11:12:21 - Processing file: 558836966721237.dat
+2020-06-13 11:12:21 - Start processing
+2020-06-13 11:13:08 - Exception: keys must be a string
+2020-06-13 11:13:08 - Traceback (most recent call last):
+  File "D:\Dev\WoT Battle Parser\wotbr2j.py", line 276, in dumpjson
+    finalfile.write(json.dumps(bresult, ensure_ascii=False))
+  File "C:\Programs\Python2\lib\json\__init__.py", line 251, in dumps
+    sort_keys=sort_keys, **kw).encode(obj)
+  File "C:\Programs\Python2\lib\json\encoder.py", line 207, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Programs\Python2\lib\json\encoder.py", line 270, in iterencode
+    return _iterencode(o, 0)
+TypeError: keys must be a string
+
+2020-06-13 11:16:57 - 
+2020-06-13 11:16:57 - ### WoTBR2J 1.9.1.0 BATTLE FILE CONVERT TO JSON ###
+2020-06-13 11:16:57 - Time: 2020-06-13 11:16:57.818000
+2020-06-13 11:16:57 - Encoding: ascii - mbcs
+2020-06-13 11:16:57 - Logging to file: D:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-06-13 11:16:57 - Processing file: 558836966721237.dat
+2020-06-13 11:16:57 - Start processing
+2020-06-13 11:17:21 - Exception: keys must be a string
+2020-06-13 11:17:21 - Traceback (most recent call last):
+  File "D:\Dev\WoT Battle Parser\wotbr2j.py", line 272, in dumpjson
+    test = json.dumps(bresult, ensure_ascii=False)
+  File "C:\Programs\Python2\lib\json\__init__.py", line 251, in dumps
+    sort_keys=sort_keys, **kw).encode(obj)
+  File "C:\Programs\Python2\lib\json\encoder.py", line 207, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Programs\Python2\lib\json\encoder.py", line 270, in iterencode
+    return _iterencode(o, 0)
+TypeError: keys must be a string
+
+2020-06-13 11:18:34 - 
+2020-06-13 11:18:34 - ### WoTBR2J 1.9.1.0 BATTLE FILE CONVERT TO JSON ###
+2020-06-13 11:18:34 - Time: 2020-06-13 11:18:34.330000
+2020-06-13 11:18:34 - Encoding: ascii - mbcs
+2020-06-13 11:18:34 - Logging to file: D:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-06-13 11:18:34 - Processing file: 558836966721237.dat
+2020-06-13 11:18:34 - Start processing
+2020-06-13 11:19:33 - 
+2020-06-13 11:19:33 - ### WoTBR2J 1.9.1.0 BATTLE FILE CONVERT TO JSON ###
+2020-06-13 11:19:33 - Time: 2020-06-13 11:19:33.075000
+2020-06-13 11:19:33 - Encoding: ascii - mbcs
+2020-06-13 11:19:33 - Logging to file: D:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-06-13 11:19:33 - Processing file: 558836966721237.dat
+2020-06-13 11:19:33 - Start processing
+2020-06-13 11:19:51 - 
+2020-06-13 11:19:51 - ### WoTBR2J 1.9.1.0 BATTLE FILE CONVERT TO JSON ###
+2020-06-13 11:19:51 - Time: 2020-06-13 11:19:51.224000
+2020-06-13 11:19:51 - Encoding: ascii - mbcs
+2020-06-13 11:19:51 - Logging to file: D:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-06-13 11:19:51 - Processing file: 558836966721237.dat
+2020-06-13 11:19:51 - Start processing
+2020-06-13 11:21:08 - 
+2020-06-13 11:21:08 - ### WoTBR2J 1.9.1.0 BATTLE FILE CONVERT TO JSON ###
+2020-06-13 11:21:08 - Time: 2020-06-13 11:21:08.118000
+2020-06-13 11:21:08 - Encoding: ascii - mbcs
+2020-06-13 11:21:08 - Logging to file: D:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-06-13 11:21:08 - Processing file: 558836966721237.dat
+2020-06-13 11:21:08 - Start processing
+2020-06-13 11:21:26 - 
+2020-06-13 11:21:26 - ### WoTBR2J 1.9.1.0 BATTLE FILE CONVERT TO JSON ###
+2020-06-13 11:21:26 - Time: 2020-06-13 11:21:26.505000
+2020-06-13 11:21:26 - Encoding: ascii - mbcs
+2020-06-13 11:21:26 - Logging to file: D:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-06-13 11:21:26 - Processing file: 558836966721237.dat
+2020-06-13 11:21:26 - Start processing
+2020-06-13 11:22:09 - 
+2020-06-13 11:22:09 - ### WoTBR2J 1.9.1.0 BATTLE FILE CONVERT TO JSON ###
+2020-06-13 11:22:09 - Time: 2020-06-13 11:22:09.110000
+2020-06-13 11:22:09 - Encoding: ascii - mbcs
+2020-06-13 11:22:09 - Logging to file: D:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-06-13 11:22:09 - Processing file: 558836966721237.dat
+2020-06-13 11:22:09 - Start processing
+2020-06-13 11:23:28 - Exception: keys must be a string
+2020-06-13 11:23:28 - Traceback (most recent call last):
+  File "D:\Dev\WoT Battle Parser\wotbr2j.py", line 280, in dumpjson
+    test = json.dumps(bresult['personal'], ensure_ascii=False)
+  File "C:\Programs\Python2\lib\json\__init__.py", line 251, in dumps
+    sort_keys=sort_keys, **kw).encode(obj)
+  File "C:\Programs\Python2\lib\json\encoder.py", line 207, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Programs\Python2\lib\json\encoder.py", line 270, in iterencode
+    return _iterencode(o, 0)
+TypeError: keys must be a string
+
+2020-06-13 11:23:37 - 
+2020-06-13 11:23:37 - ### WoTBR2J 1.9.1.0 BATTLE FILE CONVERT TO JSON ###
+2020-06-13 11:23:37 - Time: 2020-06-13 11:23:37.377000
+2020-06-13 11:23:37 - Encoding: ascii - mbcs
+2020-06-13 11:23:37 - Logging to file: D:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-06-13 11:23:37 - Processing file: 558836966721237.dat
+2020-06-13 11:23:37 - Start processing
+2020-06-13 11:34:36 - Exception: keys must be a string
+2020-06-13 11:34:36 - Traceback (most recent call last):
+  File "D:\Dev\WoT Battle Parser\wotbr2j.py", line 280, in dumpjson
+    test = json.dumps(bresult['personal'], ensure_ascii=False)
+  File "C:\Programs\Python2\lib\json\__init__.py", line 251, in dumps
+    sort_keys=sort_keys, **kw).encode(obj)
+  File "C:\Programs\Python2\lib\json\encoder.py", line 207, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Programs\Python2\lib\json\encoder.py", line 270, in iterencode
+    return _iterencode(o, 0)
+TypeError: keys must be a string
+
+2020-06-13 11:34:48 - 
+2020-06-13 11:34:48 - ### WoTBR2J 1.9.1.0 BATTLE FILE CONVERT TO JSON ###
+2020-06-13 11:34:48 - Time: 2020-06-13 11:34:48.219000
+2020-06-13 11:34:48 - Encoding: ascii - mbcs
+2020-06-13 11:34:48 - Logging to file: D:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-06-13 11:34:48 - Processing file: 558836966721237.dat
+2020-06-13 11:34:48 - Start processing
+2020-06-13 11:35:44 - Exception: keys must be a string
+2020-06-13 11:35:44 - Traceback (most recent call last):
+  File "D:\Dev\WoT Battle Parser\wotbr2j.py", line 280, in dumpjson
+    test = json.dumps(bresult['personal'], ensure_ascii=False)
+  File "C:\Programs\Python2\lib\json\__init__.py", line 251, in dumps
+    sort_keys=sort_keys, **kw).encode(obj)
+  File "C:\Programs\Python2\lib\json\encoder.py", line 207, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Programs\Python2\lib\json\encoder.py", line 270, in iterencode
+    return _iterencode(o, 0)
+TypeError: keys must be a string
+
+2020-06-13 11:35:50 - 
+2020-06-13 11:35:50 - ### WoTBR2J 1.9.1.0 BATTLE FILE CONVERT TO JSON ###
+2020-06-13 11:35:50 - Time: 2020-06-13 11:35:50.826000
+2020-06-13 11:35:50 - Encoding: ascii - mbcs
+2020-06-13 11:35:50 - Logging to file: D:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-06-13 11:35:50 - Processing file: 558836966721237.dat
+2020-06-13 11:35:50 - Start processing
+2020-06-13 11:41:24 - Exception: keys must be a string
+2020-06-13 11:41:24 - Traceback (most recent call last):
+  File "D:\Dev\WoT Battle Parser\wotbr2j.py", line 280, in dumpjson
+    test = json.dumps(bresult['personal'], ensure_ascii=False)
+  File "C:\Programs\Python2\lib\json\__init__.py", line 251, in dumps
+    sort_keys=sort_keys, **kw).encode(obj)
+  File "C:\Programs\Python2\lib\json\encoder.py", line 207, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Programs\Python2\lib\json\encoder.py", line 270, in iterencode
+    return _iterencode(o, 0)
+TypeError: keys must be a string
+
+2020-06-13 11:45:25 - 
+2020-06-13 11:45:25 - ### WoTBR2J 1.9.1.0 BATTLE FILE CONVERT TO JSON ###
+2020-06-13 11:45:25 - Time: 2020-06-13 11:45:25.803000
+2020-06-13 11:45:25 - Encoding: ascii - mbcs
+2020-06-13 11:45:25 - Logging to file: D:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-06-13 11:45:25 - Processing file: 558836966721237.dat
+2020-06-13 11:45:25 - Start processing
+2020-06-13 11:46:41 - 
+2020-06-13 11:46:41 - ### WoTBR2J 1.9.1.0 BATTLE FILE CONVERT TO JSON ###
+2020-06-13 11:46:41 - Time: 2020-06-13 11:46:41.757000
+2020-06-13 11:46:41 - Encoding: ascii - mbcs
+2020-06-13 11:46:41 - Logging to file: D:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-06-13 11:46:41 - Processing file: 558836966721237.dat
+2020-06-13 11:46:41 - Start processing
+2020-06-13 11:47:00 - Exception: avatars
+2020-06-13 11:47:00 - Traceback (most recent call last):
+  File "D:\Dev\WoT Battle Parser\wotbr2j.py", line 280, in dumpjson
+    test = json.dumps(bresult['personal']['avatars'], ensure_ascii=False)
+KeyError: 'avatars'
+
+2020-06-13 11:47:07 - Exception: avatars
+2020-06-13 11:47:07 - Traceback (most recent call last):
+  File "D:\Dev\WoT Battle Parser\wotbr2j.py", line 280, in dumpjson
+    test = json.dumps(bresult['personal']['avatars'], ensure_ascii=False)
+KeyError: 'avatars'
+
+2020-06-13 11:48:56 - 
+2020-06-13 11:48:56 - ### WoTBR2J 1.9.1.0 BATTLE FILE CONVERT TO JSON ###
+2020-06-13 11:48:56 - Time: 2020-06-13 11:48:56.567000
+2020-06-13 11:48:56 - Encoding: ascii - mbcs
+2020-06-13 11:48:56 - Logging to file: D:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-06-13 11:48:56 - Processing file: 558836966721237.dat
+2020-06-13 11:48:56 - Start processing
+2020-06-13 11:49:06 - Exception: global name 'vehTypeCompDescr' is not defined
+2020-06-13 11:49:06 - Traceback (most recent call last):
+  File "D:\Dev\WoT Battle Parser\wotbr2j.py", line 280, in dumpjson
+    vehTypeCompDescr, ownResults in bresult['personal'].copy()
+NameError: global name 'vehTypeCompDescr' is not defined
+
+2020-06-13 11:53:05 - 
+2020-06-13 11:53:05 - ### WoTBR2J 1.9.1.0 BATTLE FILE CONVERT TO JSON ###
+2020-06-13 11:53:05 - Time: 2020-06-13 11:53:05.068000
+2020-06-13 11:53:05 - Encoding: ascii - mbcs
+2020-06-13 11:53:05 - Logging to file: D:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-06-13 11:53:05 - Processing file: 558836966721237.dat
+2020-06-13 11:53:05 - Start processing
+2020-06-13 11:55:30 - Exception: keys must be a string
+2020-06-13 11:55:30 - Traceback (most recent call last):
+  File "D:\Dev\WoT Battle Parser\wotbr2j.py", line 289, in dumpjson
+    finalfile.write(json.dumps(bresult, ensure_ascii=False))
+  File "C:\Programs\Python2\lib\json\__init__.py", line 251, in dumps
+    sort_keys=sort_keys, **kw).encode(obj)
+  File "C:\Programs\Python2\lib\json\encoder.py", line 207, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Programs\Python2\lib\json\encoder.py", line 270, in iterencode
+    return _iterencode(o, 0)
+TypeError: keys must be a string
+
+2020-06-13 11:55:39 - 
+2020-06-13 11:55:39 - ### WoTBR2J 1.9.1.0 BATTLE FILE CONVERT TO JSON ###
+2020-06-13 11:55:39 - Time: 2020-06-13 11:55:39.372000
+2020-06-13 11:55:39 - Encoding: ascii - mbcs
+2020-06-13 11:55:39 - Logging to file: D:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-06-13 11:55:39 - Processing file: 558836966721237.dat
+2020-06-13 11:55:39 - Start processing
+2020-06-13 11:56:40 - 
+2020-06-13 11:56:40 - ### WoTBR2J 1.9.1.0 BATTLE FILE CONVERT TO JSON ###
+2020-06-13 11:56:40 - Time: 2020-06-13 11:56:40.717000
+2020-06-13 11:56:40 - Encoding: ascii - mbcs
+2020-06-13 11:56:40 - Logging to file: D:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-06-13 11:56:40 - Processing file: 558836966721237.dat
+2020-06-13 11:56:40 - Start processing
+2020-06-13 11:57:56 - 
+2020-06-13 11:57:56 - ### WoTBR2J 1.9.1.0 BATTLE FILE CONVERT TO JSON ###
+2020-06-13 11:57:56 - Time: 2020-06-13 11:57:56.353000
+2020-06-13 11:57:56 - Encoding: ascii - mbcs
+2020-06-13 11:57:56 - Logging to file: D:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-06-13 11:57:56 - Processing file: 558836966721237.dat
+2020-06-13 11:57:56 - Start processing
+2020-06-13 11:58:07 - Exception: keys must be a string
+2020-06-13 11:58:07 - Traceback (most recent call last):
+  File "D:\Dev\WoT Battle Parser\wotbr2j.py", line 285, in dumpjson
+    test = json.dumps(vehTypeCompDescrData, ensure_ascii=False)
+  File "C:\Programs\Python2\lib\json\__init__.py", line 251, in dumps
+    sort_keys=sort_keys, **kw).encode(obj)
+  File "C:\Programs\Python2\lib\json\encoder.py", line 207, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Programs\Python2\lib\json\encoder.py", line 270, in iterencode
+    return _iterencode(o, 0)
+TypeError: keys must be a string
+
+2020-06-13 11:58:27 - 
+2020-06-13 11:58:27 - ### WoTBR2J 1.9.1.0 BATTLE FILE CONVERT TO JSON ###
+2020-06-13 11:58:27 - Time: 2020-06-13 11:58:27.717000
+2020-06-13 11:58:27 - Encoding: ascii - mbcs
+2020-06-13 11:58:27 - Logging to file: D:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-06-13 11:58:27 - Processing file: 558836966721237.dat
+2020-06-13 11:58:27 - Start processing
+2020-06-13 12:02:25 - 
+2020-06-13 12:02:25 - ### WoTBR2J 1.9.1.0 BATTLE FILE CONVERT TO JSON ###
+2020-06-13 12:02:25 - Time: 2020-06-13 12:02:25.446000
+2020-06-13 12:02:25 - Encoding: ascii - mbcs
+2020-06-13 12:02:25 - Logging to file: D:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-06-13 12:02:25 - Processing file: 558836966721237.dat
+2020-06-13 12:02:25 - Start processing
+2020-06-13 12:09:43 - 
+2020-06-13 12:09:43 - ### WoTBR2J 1.9.1.0 BATTLE FILE CONVERT TO JSON ###
+2020-06-13 12:09:43 - Time: 2020-06-13 12:09:43.825000
+2020-06-13 12:09:43 - Encoding: ascii - mbcs
+2020-06-13 12:09:43 - Logging to file: D:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-06-13 12:09:43 - Processing file: 558836966721237.dat
+2020-06-13 12:09:43 - Start processing
+2020-06-13 12:46:13 - 
+2020-06-13 12:46:13 - ### WoTBR2J 1.9.1.0 BATTLE FILE CONVERT TO JSON ###
+2020-06-13 12:46:13 - Time: 2020-06-13 12:46:13.703000
+2020-06-13 12:46:13 - Encoding: ascii - mbcs
+2020-06-13 12:46:13 - Logging to file: D:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-06-13 12:46:13 - Processing file: 558836966721237.dat
+2020-06-13 12:46:13 - Start processing
+2020-06-13 13:13:53 - 
+2020-06-13 13:13:53 - ### WoTBR2J 1.9.1.0 BATTLE FILE CONVERT TO JSON ###
+2020-06-13 13:13:53 - Time: 2020-06-13 13:13:53.244000
+2020-06-13 13:13:53 - Encoding: ascii - mbcs
+2020-06-13 13:13:53 - Logging to file: D:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-06-13 13:13:53 - Processing file: 558836966721237.dat
+2020-06-13 13:13:53 - Start processing
+2020-06-13 13:13:58 - Exception: keys must be a string
+2020-06-13 13:13:58 - Traceback (most recent call last):
+  File "D:\Dev\WoT Battle Parser\wotbr2j.py", line 288, in dumpjson
+    test = json.dumps(vehTypeCompDescrData, ensure_ascii=False)
+  File "C:\Programs\Python2\lib\json\__init__.py", line 251, in dumps
+    sort_keys=sort_keys, **kw).encode(obj)
+  File "C:\Programs\Python2\lib\json\encoder.py", line 207, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Programs\Python2\lib\json\encoder.py", line 270, in iterencode
+    return _iterencode(o, 0)
+TypeError: keys must be a string
+
+2020-06-13 13:15:49 - 
+2020-06-13 13:15:49 - ### WoTBR2J 1.9.1.0 BATTLE FILE CONVERT TO JSON ###
+2020-06-13 13:15:49 - Time: 2020-06-13 13:15:49.127000
+2020-06-13 13:15:49 - Encoding: ascii - mbcs
+2020-06-13 13:15:49 - Logging to file: D:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-06-13 13:15:49 - Processing file: 558836966721237.dat
+2020-06-13 13:15:49 - Start processing
+2020-06-13 13:16:22 - ### Done ###
+2020-06-13 13:16:22 - 
+2020-06-13 13:17:44 - 
+2020-06-13 13:17:44 - ### WoTBR2J 1.9.1.0 BATTLE FILE CONVERT TO JSON ###
+2020-06-13 13:17:44 - Time: 2020-06-13 13:17:44.686000
+2020-06-13 13:17:44 - Encoding: ascii - mbcs
+2020-06-13 13:17:44 - Processing file: 558836966721237.dat
+2020-06-13 13:17:44 - Start processing
+2020-06-13 13:17:44 - ### Done ###
+2020-06-13 13:17:44 - 
+2020-06-13 13:22:10 - 
+2020-06-13 13:22:10 - ### WoTBR2J 1.9.1.0 BATTLE FILE CONVERT TO JSON ###
+2020-06-13 13:22:10 - Time: 2020-06-13 13:22:10.514000
+2020-06-13 13:22:10 - Encoding: ascii - mbcs
+2020-06-13 13:22:10 - Processing file: 558836966721237.dat
+2020-06-13 13:22:10 - Start processing
+2020-06-13 13:32:05 - 
+2020-06-13 13:32:05 - ### WoTBR2J 1.9.1.0 BATTLE FILE CONVERT TO JSON ###
+2020-06-13 13:32:05 - Time: 2020-06-13 13:32:05.955000
+2020-06-13 13:32:05 - Encoding: ascii - mbcs
+2020-06-13 13:32:05 - Processing file: 558836966721237.dat
+2020-06-13 13:32:05 - Start processing
+2020-06-13 13:32:21 - ### Done ###
+2020-06-13 13:32:21 - 
+2020-06-13 14:09:59 - 
+2020-06-13 14:09:59 - ### WoTBR2J 1.9.1.0 BATTLE FILE CONVERT TO JSON ###
+2020-06-13 14:09:59 - Time: 2020-06-13 14:09:59.691000
+2020-06-13 14:09:59 - Encoding: ascii - mbcs
+2020-06-13 14:09:59 - Processing file: 558836966721237.dat
+2020-06-13 14:09:59 - Start processing
+2020-06-13 14:09:59 - ### Done ###
+2020-06-13 14:09:59 - 
+2020-10-24 13:44:07 - 
+2020-10-24 13:44:07 - ### WoTBR2J 1.9.1.0 BATTLE FILE CONVERT TO JSON ###
+2020-10-24 13:44:07 - Time: 2020-10-24 13:44:07.382000
+2020-10-24 13:44:07 - Encoding: ascii - mbcs
+2020-10-24 13:44:07 - Processing file: 558836966721237.dat
+2020-10-24 13:44:07 - Start processing
+2020-10-24 13:44:07 - Traceback (most recent call last):
+  File "D:\Dev\WoT Battle Parser\wotbr2j.py", line 158, in convertToFullForm
+    if len(battle_results_data.AVATAR_FULL_RESULTS) + 1 != len(avatarResults):
+AttributeError: 'module' object has no attribute 'AVATAR_FULL_RESULTS'
+
+2020-10-24 13:44:07 - Failed processing battle: {'error': AttributeError("'module' object has no attribute 'AVATAR_FULL_RESULTS'",)}
+2020-10-24 13:44:07 - Battle result cannot be read
+2020-10-24 13:44:58 - 
+2020-10-24 13:44:58 - ### WoTBR2J 1.9.1.0 BATTLE FILE CONVERT TO JSON ###
+2020-10-24 13:44:58 - Time: 2020-10-24 13:44:58.848000
+2020-10-24 13:44:58 - Encoding: ascii - mbcs
+2020-10-24 13:44:58 - Processing file: 558836966721237.dat
+2020-10-24 13:44:58 - Start processing
+2020-10-24 13:45:59 - 
+2020-10-24 13:45:59 - ### WoTBR2J 1.9.1.0 BATTLE FILE CONVERT TO JSON ###
+2020-10-24 13:45:59 - Time: 2020-10-24 13:45:59.318000
+2020-10-24 13:45:59 - Encoding: ascii - mbcs
+2020-10-24 13:45:59 - Processing file: 558836966721237.dat
+2020-10-24 13:45:59 - Start processing
+2020-10-24 13:46:38 - Traceback (most recent call last):
+  File "D:\Dev\WoT Battle Parser\wotbr2j.py", line 166, in convertToFullForm
+    vehPersonal = personal[vehTypeCompDescr] = battle_results_data.VEH_FULL_RESULTS.unpackWthoutChecksum(ownResults)
+AttributeError: 'module' object has no attribute 'VEH_FULL_RESULTS'
+
+2020-10-24 13:46:38 - Failed processing battle: {'error': AttributeError("'module' object has no attribute 'VEH_FULL_RESULTS'",)}
+2020-10-24 13:46:38 - Battle result cannot be read
+2020-10-24 13:47:21 - 
+2020-10-24 13:47:21 - ### WoTBR2J 1.9.1.0 BATTLE FILE CONVERT TO JSON ###
+2020-10-24 13:47:21 - Time: 2020-10-24 13:47:21.462000
+2020-10-24 13:47:21 - Encoding: ascii - mbcs
+2020-10-24 13:47:21 - Processing file: 558836966721237.dat
+2020-10-24 13:47:21 - Start processing
+2020-10-24 21:18:25 - 
+2020-10-24 21:18:25 - ### WoTBR2J 1.10.1.0 BATTLE FILE CONVERT TO JSON ###
+2020-10-24 21:18:25 - Time: 2020-10-24 21:18:25.019000
+2020-10-24 21:18:25 - Encoding: ascii - mbcs
+2020-10-24 21:18:25 - Logging to file: d:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-10-24 21:18:25 - Processing file: ./battle_files/31233549240925250.dat
+2020-10-24 21:18:25 - Start processing
+2020-10-24 21:18:25 - Traceback (most recent call last):
+  File "d:\Dev\WoT Battle Parser\wotbr2j.py", line 158, in convertToFullForm
+    if len(battle_results_data.AVATAR_FULL_RESULTS) + 1 != len(avatarResults):
+AttributeError: 'module' object has no attribute 'AVATAR_FULL_RESULTS'
+
+2020-10-24 21:18:25 - Failed processing battle: {'error': AttributeError("'module' object has no attribute 'AVATAR_FULL_RESULTS'",)}
+2020-10-24 21:18:25 - Battle result cannot be read
+2020-10-24 21:57:34 - 
+2020-10-24 21:57:34 - ### WoTBR2J 1.10.1.0 BATTLE FILE CONVERT TO JSON ###
+2020-10-24 21:57:34 - Time: 2020-10-24 21:57:34.381000
+2020-10-24 21:57:34 - Encoding: ascii - mbcs
+2020-10-24 21:57:34 - Logging to file: d:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-10-24 21:57:34 - Processing file: ./battle_files/31233549240925250.dat
+2020-10-24 21:58:04 - Start processing
+2020-10-24 23:05:24 - 
+2020-10-24 23:05:24 - ### WoT Battle Result to Json - version 1.10.1.0 ###
+2020-10-24 23:05:24 - Time: 2020-10-24 23:05:24.144000
+2020-10-24 23:05:24 - Encoding: ascii - mbcs
+2020-10-24 23:05:24 - Logging to file: d:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-10-24 23:05:24 - Processing file: ./battle_files/31233549240925250.dat
+2020-10-24 23:05:46 - Start processing
+2020-10-24 23:06:17 - Failed processing battle: {'error': 'Wrong number of items in avatar result list (expecting:339 - found:47)'}
+2020-10-24 23:06:17 - Battle result cannot be read
+2020-10-24 23:08:48 - 
+2020-10-24 23:08:48 - ### WoT Battle Result to Json - version 1.10.1.0 ###
+2020-10-24 23:08:48 - Time: 2020-10-24 23:08:48.409000
+2020-10-24 23:08:48 - Encoding: ascii - mbcs
+2020-10-24 23:08:48 - Logging to file: d:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-10-24 23:08:48 - Processing file: ./battle_files/31233549240925250.dat
+2020-10-24 23:08:55 - Start processing
+2020-10-24 23:09:11 - Failed processing battle: {'error': 'Wrong number of items in avatar result list (expecting:339 - found:1)'}
+2020-10-24 23:09:11 - Battle result cannot be read
+2020-10-24 23:10:07 - 
+2020-10-24 23:10:07 - ### WoT Battle Result to Json - version 1.10.1.0 ###
+2020-10-24 23:10:07 - Time: 2020-10-24 23:10:07.855000
+2020-10-24 23:10:07 - Encoding: ascii - mbcs
+2020-10-24 23:10:07 - Logging to file: d:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-10-24 23:10:07 - Processing file: ./battle_files/31233549240925250.dat
+2020-10-24 23:10:07 - Start processing
+2020-10-24 23:18:42 - 
+2020-10-24 23:18:42 - ### WoT Battle Result to Json - version 1.10.1.0 ###
+2020-10-24 23:18:42 - Time: 2020-10-24 23:18:42.881000
+2020-10-24 23:18:42 - Encoding: ascii - mbcs
+2020-10-24 23:18:42 - Logging to file: d:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-10-24 23:18:42 - Processing file: ./battle_files/31233549240925250.dat
+2020-10-24 23:18:42 - Start processing
+2020-10-24 23:20:26 - 
+2020-10-24 23:20:26 - ### WoT Battle Result to Json - version 1.10.1.0 ###
+2020-10-24 23:20:26 - Time: 2020-10-24 23:20:26.940000
+2020-10-24 23:20:26 - Encoding: ascii - mbcs
+2020-10-24 23:20:26 - Logging to file: d:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-10-24 23:20:26 - Processing file: ./battle_files/31233549240925250.dat
+2020-10-24 23:20:26 - Start processing
+2020-10-24 23:21:45 - 
+2020-10-24 23:21:45 - ### WoT Battle Result to Json - version 1.10.1.0 ###
+2020-10-24 23:21:45 - Time: 2020-10-24 23:21:45.528000
+2020-10-24 23:21:45 - Encoding: ascii - mbcs
+2020-10-24 23:21:45 - Logging to file: d:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-10-24 23:21:45 - Processing file: ./battle_files/31233549240925250.dat
+2020-10-24 23:21:45 - Start processing
+2020-10-24 23:25:11 - 
+2020-10-24 23:25:11 - ### WoT Battle Result to Json - version 1.10.1.0 ###
+2020-10-24 23:25:11 - Time: 2020-10-24 23:25:11.942000
+2020-10-24 23:25:11 - Encoding: ascii - mbcs
+2020-10-24 23:25:11 - Logging to file: d:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-10-24 23:25:11 - Processing file: ./battle_files/31233549240925250.dat
+2020-10-24 23:25:11 - Start processing
+2020-10-24 23:26:11 - 
+2020-10-24 23:26:11 - ### WoT Battle Result to Json - version 1.10.1.0 ###
+2020-10-24 23:26:11 - Time: 2020-10-24 23:26:11.970000
+2020-10-24 23:26:11 - Encoding: ascii - mbcs
+2020-10-24 23:26:11 - Logging to file: d:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-10-24 23:26:12 - Processing file: ./battle_files/31233549240925250.dat
+2020-10-24 23:26:12 - Start processing
+2020-10-25 01:45:57 - 
+2020-10-25 01:45:57 - ### WoT Battle Result to Json - version 1.10.1.0 ###
+2020-10-25 01:45:57 - Time: 2020-10-25 01:45:57.905000
+2020-10-25 01:45:57 - Encoding: ascii - mbcs
+2020-10-25 01:45:57 - Logging to file: d:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-10-25 01:45:57 - Processing file: ./battle_files/31233549240925250.dat
+2020-10-25 01:45:57 - Start processing
+2020-10-25 01:46:30 - 
+2020-10-25 01:46:30 - ### WoT Battle Result to Json - version 1.10.1.0 ###
+2020-10-25 01:46:30 - Time: 2020-10-25 01:46:30.756000
+2020-10-25 01:46:30 - Encoding: ascii - mbcs
+2020-10-25 01:46:30 - Logging to file: d:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-10-25 01:46:30 - Processing file: ./battle_files/31233549240925250.dat
+2020-10-25 01:46:30 - Start processing
+2020-10-25 01:46:45 - 
+2020-10-25 01:46:45 - ### WoT Battle Result to Json - version 1.10.1.0 ###
+2020-10-25 01:46:45 - Time: 2020-10-25 01:46:45.489000
+2020-10-25 01:46:45 - Encoding: ascii - mbcs
+2020-10-25 01:46:45 - Logging to file: d:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-10-25 01:46:45 - Processing file: ./battle_files/31233549240925250.dat
+2020-10-25 01:46:45 - Start processing
+2020-10-25 01:47:08 - 
+2020-10-25 01:47:08 - ### WoT Battle Result to Json - version 1.10.1.0 ###
+2020-10-25 01:47:08 - Time: 2020-10-25 01:47:08.250000
+2020-10-25 01:47:08 - Encoding: ascii - mbcs
+2020-10-25 01:47:08 - Logging to file: d:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-10-25 01:47:08 - Processing file: ./battle_files/31233549240925250.dat
+2020-10-25 01:47:08 - Start processing
+2020-10-25 01:47:40 - Failed processing battle: {'error': 'Wrong number of items in class: BATTLE_RESULTS (found: 207, expecting 339)'}
+2020-10-25 01:47:40 - Battle result cannot be read
+2020-10-25 01:48:13 - 
+2020-10-25 01:48:13 - ### WoT Battle Result to Json - version 1.10.1.0 ###
+2020-10-25 01:48:13 - Time: 2020-10-25 01:48:13.098000
+2020-10-25 01:48:13 - Encoding: ascii - mbcs
+2020-10-25 01:48:13 - Logging to file: d:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-10-25 01:48:13 - Processing file: ./battle_files/31233549240925250.dat
+2020-10-25 01:48:13 - Start processing
+2020-10-25 01:54:45 - 
+2020-10-25 01:54:45 - ### WoT Battle Result to Json - version 1.10.1.0 ###
+2020-10-25 01:54:45 - Time: 2020-10-25 01:54:45.699000
+2020-10-25 01:54:45 - Encoding: ascii - mbcs
+2020-10-25 01:54:45 - Logging to file: d:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-10-25 01:54:45 - Processing file: ./battle_files/31233549240925250.dat
+2020-10-25 01:54:45 - Start processing
+2020-10-25 01:59:59 - 
+2020-10-25 01:59:59 - ### WoT Battle Result to Json - version 1.10.1.0 ###
+2020-10-25 01:59:59 - Time: 2020-10-25 01:59:59.217000
+2020-10-25 01:59:59 - Encoding: ascii - mbcs
+2020-10-25 01:59:59 - Logging to file: d:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-10-25 01:59:59 - Processing file: ./battle_files/31233549240925250.dat
+2020-10-25 01:59:59 - Start processing
+2020-10-25 02:01:10 - 
+2020-10-25 02:01:10 - ### WoT Battle Result to Json - version 1.10.1.0 ###
+2020-10-25 02:01:10 - Time: 2020-10-25 02:01:10.443000
+2020-10-25 02:01:10 - Encoding: ascii - mbcs
+2020-10-25 02:01:10 - Logging to file: d:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-10-25 02:01:10 - Processing file: ./battle_files/31233549240925250.dat
+2020-10-25 02:01:10 - Start processing
+2020-10-25 02:01:10 - Failed processing battle: {'error': 'Wrong number of items in class: BATTLE_RESULTS (found: 207, expecting 339)'}
+2020-10-25 02:01:10 - Battle result cannot be read
+2020-10-25 02:01:27 - 
+2020-10-25 02:01:27 - ### WoT Battle Result to Json - version 1.10.1.0 ###
+2020-10-25 02:01:27 - Time: 2020-10-25 02:01:27.036000
+2020-10-25 02:01:27 - Encoding: ascii - mbcs
+2020-10-25 02:01:27 - Logging to file: d:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-10-25 02:01:27 - Processing file: ./battle_files/31233549240925250.dat
+2020-10-25 02:01:27 - Start processing
+2020-10-25 02:03:04 - 
+2020-10-25 02:03:04 - ### WoT Battle Result to Json - version 1.10.1.0 ###
+2020-10-25 02:03:04 - Time: 2020-10-25 02:03:04.244000
+2020-10-25 02:03:04 - Encoding: ascii - mbcs
+2020-10-25 02:03:04 - Logging to file: d:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-10-25 02:03:04 - Processing file: ./battle_files/31233549240925250.dat
+2020-10-25 02:03:04 - Start processing
+2020-10-25 02:03:04 - Traceback (most recent call last):
+  File "d:\Dev\WoT Battle Parser\wotbr2j.py", line 180, in convertToFullForm
+    personal['avatar'] = avatarResults = brc.BATTLE_RESULTS.unpackWthoutChecksum(avatarResults)
+AttributeError: 'list' object has no attribute 'unpackWthoutChecksum'
+
+2020-10-25 02:03:04 - Failed processing battle: {'error': AttributeError("'list' object has no attribute 'unpackWthoutChecksum'",)}
+2020-10-25 02:03:04 - Battle result cannot be read
+2020-10-25 02:03:09 - 
+2020-10-25 02:03:09 - ### WoT Battle Result to Json - version 1.10.1.0 ###
+2020-10-25 02:03:09 - Time: 2020-10-25 02:03:09.703000
+2020-10-25 02:03:09 - Encoding: ascii - mbcs
+2020-10-25 02:03:09 - Logging to file: d:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-10-25 02:03:09 - Processing file: ./battle_files/31233549240925250.dat
+2020-10-25 02:03:09 - Start processing
+2020-10-25 02:03:09 - Traceback (most recent call last):
+  File "d:\Dev\WoT Battle Parser\wotbr2j.py", line 180, in convertToFullForm
+    personal['avatar'] = avatarResults = brc.BATTLE_RESULTS.unpackWthoutChecksum(avatarResults)
+AttributeError: 'list' object has no attribute 'unpackWthoutChecksum'
+
+2020-10-25 02:03:09 - Failed processing battle: {'error': AttributeError("'list' object has no attribute 'unpackWthoutChecksum'",)}
+2020-10-25 02:03:09 - Battle result cannot be read
+2020-10-25 02:03:21 - 
+2020-10-25 02:03:21 - ### WoT Battle Result to Json - version 1.10.1.0 ###
+2020-10-25 02:03:21 - Time: 2020-10-25 02:03:21.293000
+2020-10-25 02:03:21 - Encoding: ascii - mbcs
+2020-10-25 02:03:21 - Logging to file: d:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-10-25 02:03:21 - Processing file: ./battle_files/31233549240925250.dat
+2020-10-25 02:03:21 - Start processing
+2020-10-25 02:03:21 - Traceback (most recent call last):
+  File "d:\Dev\WoT Battle Parser\wotbr2j.py", line 180, in convertToFullForm
+    personal['avatar'] = avatarResults = brc.BATTLE_RESULTS.unpackWthoutChecksum(avatarResults)
+AttributeError: 'list' object has no attribute 'unpackWthoutChecksum'
+
+2020-10-25 02:03:21 - Failed processing battle: {'error': AttributeError("'list' object has no attribute 'unpackWthoutChecksum'",)}
+2020-10-25 02:03:21 - Battle result cannot be read
+2020-10-25 02:07:08 - 
+2020-10-25 02:07:08 - ### WoT Battle Result to Json - version 1.10.1.0 ###
+2020-10-25 02:07:08 - Time: 2020-10-25 02:07:08.223000
+2020-10-25 02:07:08 - Encoding: ascii - mbcs
+2020-10-25 02:07:08 - Logging to file: d:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-10-25 02:07:08 - Processing file: ./battle_files/31233549240925250.dat
+2020-10-25 02:07:08 - Start processing
+2020-10-25 02:07:53 - 
+2020-10-25 02:07:53 - ### WoT Battle Result to Json - version 1.10.1.0 ###
+2020-10-25 02:07:53 - Time: 2020-10-25 02:07:53.475000
+2020-10-25 02:07:53 - Encoding: ascii - mbcs
+2020-10-25 02:07:53 - Logging to file: d:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-10-25 02:07:53 - Processing file: ./battle_files/31233549240925250.dat
+2020-10-25 02:07:53 - Start processing
+2020-10-25 02:07:53 - Traceback (most recent call last):
+  File "d:\Dev\WoT Battle Parser\wotbr2j.py", line 180, in convertToFullForm
+    personal['avatar'] = avatarResults = brc.BATTLE_RESULTS.unpackWthoutChecksum(avatarResults)
+AttributeError: 'list' object has no attribute 'unpackWthoutChecksum'
+
+2020-10-25 02:07:53 - Failed processing battle: {'error': AttributeError("'list' object has no attribute 'unpackWthoutChecksum'",)}
+2020-10-25 02:07:53 - Battle result cannot be read
+2020-10-25 02:08:16 - 
+2020-10-25 02:08:16 - ### WoT Battle Result to Json - version 1.10.1.0 ###
+2020-10-25 02:08:16 - Time: 2020-10-25 02:08:16.921000
+2020-10-25 02:08:16 - Encoding: ascii - mbcs
+2020-10-25 02:08:16 - Logging to file: d:\Dev\WoT Battle Parser\wotbr2j_log.txt
+2020-10-25 02:08:16 - Processing file: ./battle_files/31233549240925250.dat
+2020-10-25 02:08:16 - Start processing
+2020-10-25 02:10:11 - Traceback (most recent call last):
+  File "d:\Dev\WoT Battle Parser\wotbr2j.py", line 180, in convertToFullForm
+    personal['avatar'] = avatarResults = brc.BATTLE_RESULTS.unpackWthoutChecksum(avatarResults)
+AttributeError: 'list' object has no attribute 'unpackWthoutChecksum'
+
+2020-10-25 02:10:11 - Failed processing battle: {'error': AttributeError("'list' object has no attribute 'unpackWthoutChecksum'",)}
+2020-10-25 02:10:11 - Battle result cannot be read

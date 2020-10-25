@@ -1,0 +1,27 @@
+2020-10-25 02:06:22 - 
+2020-10-25 02:06:22 - ### WoTBR2J 1.10.0.4 BATTLE FILE CONVERT TO JSON ###
+2020-10-25 02:06:22 - Time: 2020-10-25 02:06:22.920000
+2020-10-25 02:06:22 - Encoding: ascii - mbcs
+2020-10-25 02:06:22 - Logging to file: d:\Dev\WoT Battle Parser\versions\WoT_1.10.0.4\wotbr2j_log.txt
+2020-10-25 02:06:22 - Processing file: ./battle_files/31233549240925250.dat
+2020-10-25 02:06:22 - Start processing
+2020-10-25 02:06:22 - Failed processing battle: {'error': 'Wrong number of items in avatar result list (expecting:52 - found:47)'}
+2020-10-25 02:06:22 - Battle result cannot be read
+2020-10-25 02:08:07 - 
+2020-10-25 02:08:07 - ### WoTBR2J 1.10.0.4 BATTLE FILE CONVERT TO JSON ###
+2020-10-25 02:08:07 - Time: 2020-10-25 02:08:07.779000
+2020-10-25 02:08:07 - Encoding: ascii - mbcs
+2020-10-25 02:08:07 - Logging to file: d:\Dev\WoT Battle Parser\versions\WoT_1.10.0.4\wotbr2j_log.txt
+2020-10-25 02:08:07 - Processing file: ./battle_files/31233549240925250.dat
+2020-10-25 02:08:23 - Start processing
+2020-10-25 02:08:26 - Failed processing battle: {'error': 'Wrong number of items in avatar result list (expecting:52 - found:47)'}
+2020-10-25 02:08:33 - Battle result cannot be read
+2020-10-25 02:08:42 - 
+2020-10-25 02:08:42 - ### WoTBR2J 1.10.0.4 BATTLE FILE CONVERT TO JSON ###
+2020-10-25 02:08:42 - Time: 2020-10-25 02:08:42.064000
+2020-10-25 02:08:42 - Encoding: ascii - mbcs
+2020-10-25 02:08:42 - Logging to file: d:\Dev\WoT Battle Parser\versions\WoT_1.10.0.4\wotbr2j_log.txt
+2020-10-25 02:08:42 - Processing file: ./battle_files/31233549240925250.dat
+2020-10-25 02:08:53 - Start processing
+2020-10-25 02:09:37 - Failed processing battle: {'error': 'Wrong number of items in avatar result list (expecting:52 - found:47)'}
+2020-10-25 02:09:47 - Battle result cannot be read

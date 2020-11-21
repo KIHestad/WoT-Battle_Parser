@@ -64,16 +64,16 @@ STEP 2 - Uncompile extracted source files
 STEP 3 - Copy decompiled files into source code
 
 	Navigate to the folder named '_DECOMPILED' created in previous step.
-	Copy all the files and the TODO-subfolders into the new version folder you just have created in this project
+	Copy all the files and the EXTRA-subfolders into the new version folder you just have created in this project
 
 STEP 4 - Fix the main struct file: 'battle_results_common.py'
 
     The file 'battle_results_common.py' is the main file describing data structure, this has references to some libraries
 	Compare this file with the same file from previous version, you will see in the top 20 lines or so some changes that needs to be done
 	
-	A) Comment out the reference to "items.vehicles", go to the TODO folder and find this file, copy the relevant classes into the file
+	A) Comment out the reference to "items.vehicles", go to the EXTRA folder and find this file, copy the relevant classes into the file
 
-	B) Comment out the reference to "items.badges_common", go to the TODO folder and find this file, copy the relevant classes into the file
+	B) Comment out the reference to "items.badges_common", go to the EXTRA folder and find this file, copy the relevant classes into the file
 	
 STEP 5 - Fix the file used for unpacking data: 'DictPackers.py'
 

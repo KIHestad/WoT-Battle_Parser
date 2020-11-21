@@ -86,7 +86,7 @@ class DictPacker(object):
                         v = None
                 l[index + 1] = v
             except Exception as e:
-                LOG_ERROR('error while packing:', index, metaEntry, str(e))
+                #LOG_ERROR('error while packing:', index, metaEntry, str(e))
                 raise
 
         return l

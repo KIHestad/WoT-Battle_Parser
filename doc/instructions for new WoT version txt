@@ -30,7 +30,7 @@ PREPARATIONS - Create a new folder for new battle parser version
 		
 		wotbr2j.py
 
-	Open the file and update version number in line 16, set same version number as the new WoT version
+	Open the file and update version number in line 15, set same version number as the new WoT version
 
 STEP 1 - Exctract source files from WoT game client
 
@@ -56,15 +56,15 @@ STEP 2 - Uncompile extracted source files
 	uncompyle6 -o .\_DECOMPILED\battle_results_ranked.py .\battle_results\ranked.pyc
 	uncompyle6 -o .\_DECOMPILED\constants.py .\constants.pyc
 	uncompyle6 -o .\_DECOMPILED\enumerations.py .\enumerations.pyc
-	uncompyle6 -o .\_DECOMPILED\TODO\badges_common.py .\items\badges_common.pyc
-	uncompyle6 -o .\_DECOMPILED\TODO\vehicles.py .\items\vehicles.pyc
+	uncompyle6 -o .\_DECOMPILED\EXTRA\badges_common.py .\items\badges_common.pyc
+	uncompyle6 -o .\_DECOMPILED\EXTRA\vehicles.py .\items\vehicles.pyc
 	uncompyle6 -o .\_DECOMPILED\soft_exception.py .\soft_exception.pyc
 	@echo done
 
 STEP 3 - Copy decompiled files into source code
 
 	Navigate to the folder named '_DECOMPILED' created in previous step.
-	Copy all the files and the TODO-subfolders with files into the new version folder in this project
+	Copy all the files and the TODO-subfolders into the new version folder you just have created in this project
 
 STEP 4 - Fix the main struct file: 'battle_results_common.py'
 

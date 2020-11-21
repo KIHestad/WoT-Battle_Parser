@@ -65,7 +65,7 @@ def main():
     filename_target = os.path.splitext(filename_source)[0] 
     filename_target = filename_target + '.json' 
     if not os.path.exists(filename_source) or not os.path.isfile(filename_source):
-        exitwitherror('Battle Result does not exists! file: ' + filename_source)
+        exitwitherror('Battle Result file not found or no access to file: ' + filename_source)
     if not os.access(filename_source, os.R_OK):
         exitwitherror('Cannot read Battle result, read-access was denied for file: ' + filename_source)
 
@@ -77,9 +77,9 @@ def main():
         # Read file, first element is to be ignored, second is battle result (br) all data in raw format, needs furher unpickling 
         legacyBattleResultVersion, brAllDataRaw = cPickle.load(cachefile)
     except Exception, e: 
-        exitwitherror('Battle Result cannot be read (pickle could not be read) ' + e.message) 
+        exitwitherror('Error occured reading battle file:' + filename_source + ' - Error Message:' + e.message) 
     if not 'brAllDataRaw' in locals(): 
-        exitwitherror('Battle Result cannot be read')
+        exitwitherror('Battle Result file read, but main data object is missing.')
     printmessage('Battle file binary content read, found legacy battle result version: ' + str(legacyBattleResultVersion), False)
 
     # Read raw binary data from battle file

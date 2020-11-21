@@ -4,28 +4,33 @@
 ** Created by: BadButton / http://wotnumbers.com    **
 ******************************************************
 
-This is a procedure for how to update the WoT battle parser when WoT new version is released
+This is a procedure explaining how to update the WoT battle parser when WoT new version is released
 It requires a Windows PC, procedure is tested on Windows 10
 Python 2.7 with uncompyle6 must be installed
-This project is made for Visual Studio Code, but other ediors can be used
+This project is made using Visual Studio Code, this instruction takes for granted that you are using VS Code editor
 Beyond Compare is reccomeeded for comparing files (https://www.scootersoftware.com/download.php)
 
-The following files needs attention:
+The following files are the main files in use that needs most attention:
 	wotbr2j.py = WoT Battle Result To Json, custom Python script for unpacking the battle file produced by WoT game client after each battle
 	dictpackers.py = methods for unpacking data, extracted from WoT installation files
-	battle_results_shared.py = data structure, extracted from WoT installation files (used for WoT previous versions before 1.10.1.0)
-	battle_results_common.py = data structure, extracted from WoT installation files (consider to be used for WoT previous version 1.10.1.0)
-	
-PREPARATIONS - Create folder for new battle parser version
+	battle_results_common.py = data structure, extracted from WoT installation files 
+	all other files referenced in this instructions must also be included, but needs no spedific attention
+
+PREPARATIONS - Create a new folder for new battle parser version
+
+	Make sure you have updated WoT to the latest version, locate your game folder and go so subfolder ~\res_mods
+	You will find one or several folders with numeric names, ex: "1.10.1.3", the highest number is the latest version
 
 	Navigate to the folder: \versions located in this project
-	Create new folder with name: 'WoT_X.X.X.X' that represent the battle parser new version 
+	Create new folder with name: 'WoT_X.X.X.X' that represent the WoT new game client version, ex: 'WoT_1.10.1.3'
+	This should also be used as the battle parser new version
 	
-	Copy these files from the previous version into the new version, to be reused with just small modifications:
+	Copy the parser from the previous version into the new version, this file can normally be reused with just minor modifications.
+	The parser had the filename: 
+		
 		wotbr2j.py
-		dictpackers.py
 
-	Open the file wotbr2j.py and update version number in line 48 to be the same as the new WoT version
+	Open the file and update version number in line 16, set same version number as the new WoT version
 
 STEP 1 - Exctract source files from WoT game client
 
@@ -42,70 +47,74 @@ STEP 2 - Uncompile extracted source files
 	Open Command Prompt at the location of the extracted files - ex: C:\Dev\WoT_Files_Raw\<wot_version_number>\common
 	Run Python decompiler on the following files, just copy the following section paste into the command prompt window:
 
-	uncompyle6 -o .\decompiled_battle\dictpackers.py .\DictPackers.pyc
-	uncompyle6 -o .\decompiled_battle\battle_results_shared.py .\battle_results_shared.pyc
-	uncompyle6 -o .\decompiled_battle\vehicles.py .\items\vehicles.pyc
-	uncompyle6 -o .\decompiled_battle\badges_common.py .\items\badges_common.pyc
-	uncompyle6 -o .\decompiled_battle\constants.py .\constants.pyc
-	uncompyle6 -o .\decompiled_battle\battle_results_common.py .\battle_results\battle_results_common.pyc
-	uncompyle6 -o .\decompiled_battle\battle_results_constants.py .\battle_results\battle_results_constants.pyc
+	uncompyle6 -o .\_DECOMPILED\DictPackers.py .\DictPackers.pyc
+	uncompyle6 -o .\_DECOMPILED\battle_results_constants.py .\battle_results\battle_results_constants.pyc
+	uncompyle6 -o .\_DECOMPILED\battle_results_common.py .\battle_results\battle_results_common.pyc
+	uncompyle6 -o .\_DECOMPILED\battle_results_event.py .\battle_results\event.pyc
+	uncompyle6 -o .\_DECOMPILED\battle_results_frontline.py .\battle_results\frontline.pyc
+	uncompyle6 -o .\_DECOMPILED\battle_results_random.py .\battle_results\random.pyc
+	uncompyle6 -o .\_DECOMPILED\battle_results_ranked.py .\battle_results\ranked.pyc
+	uncompyle6 -o .\_DECOMPILED\constants.py .\constants.pyc
+	uncompyle6 -o .\_DECOMPILED\enumerations.py .\enumerations.pyc
+	uncompyle6 -o .\_DECOMPILED\TODO\badges_common.py .\items\badges_common.pyc
+	uncompyle6 -o .\_DECOMPILED\TODO\vehicles.py .\items\vehicles.pyc
+	uncompyle6 -o .\_DECOMPILED\soft_exception.py .\soft_exception.pyc
 	@echo done
 
-STEP 3 - Fast fix (not doable for versiom 1.10.1.0)
+STEP 3 - Copy decompiled files into source code
 
-	Navigate to the folder named 'decompiled_battle' created in previous step.
-	Copy these files into the new version folder 
-		battle_results_shared.py
-		battle_results_common.py (new in version 1.10.1.0)
-		battle_results_constants.py (new in version 1.10.1.0)
+	Navigate to the folder named '_DECOMPILED' created in previous step.
+	Copy all the files and the TODO-subfolders with files into the new version folder in this project
+
+STEP 4 - Fix the main struct file: 'battle_results_common.py'
+
+    The file 'battle_results_common.py' is the main file describing data structure, this has references to some libraries
+	Compare this file with the same file from previous version, you will see in the top 20 lines or so some changes that needs to be done
 	
-	Compare these files with files having same filename from previous version, identify changes
-	It is quite conveniant to use the software: 'Beyond Compare' for this job
-	For the file 'battle_results_shared.py' the normal changes has been:
-		Modify first part of the file where libs are included, make changes in new file similar to previous one
-		The referenced libraries must be included in the file to avoid lookup for these in separate files
-		It is normal that the middle and largest part of the file has some changes changed compared to the previos one
-		Comment out the last few lines where error logging happens: #from debug_utils import LOG_ERROR / #LOG_ERROR('PACKING EXCEPTION', e, str(self))
-	The new files that might be relevant: 'battle_results_common.py' and 'battle_results_constants.py' needs investigation, not sure if these should be used
+	A) Comment out the reference to "items.vehicles", go to the TODO folder and find this file, copy the relevant classes into the file
+
+	B) Comment out the reference to "items.badges_common", go to the TODO folder and find this file, copy the relevant classes into the file
 	
-	If there is just minor changes in the new WoT version this could be enought, and the parser will then be able to run
+STEP 5 - Fix the file used for unpacking data: 'DictPackers.py'
 
-STEP 4 - Complete fix
+	Compare the file 'DictPackers.py' with the same file from the previous version and look for changes
 
-    If the previous fix was not successful (and it was not for version 1.10.1.0), further investigations must be done
-	The file: 'battle_results_shared.pyc' and 'DictPackers.pyc' has previously been the main files to be investigated
-	For version 1.10.1.0 there might be new files that must be included
+	A) Comment out the reference to "debug_utils", this part is not needed
+
+STEP 6 - Testing
+
+	Make sure you play one battle using WoT, stay until battle is done and ensure you get the after battle stats displayed
+	Do not close the WoT game client, closing or restarting game client might delete battle files
+
+	Use Windows Explorer, and go to appdata folder by entering in the address bar: %appdata%
+
+	Go to sufolders like this: ~\Wargaming.net\WorldOfTanks\battle_results
+
+	You normally find one additional subfolder here, select it and the latest file, typically a filename like: 66324235210303662.dat
+	Do not rename the file, the filename itself contains information that will be decrypted by the parser
+
+	Save this file in this project under folder: battle_files + create subfolder for the WoT version currently in used
+
+	Go to the file "launch.json" in root folder of this project, edit part of the content similar to this:
+
+	"configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args":["./battle_files/WoT_1.10.1.3/66324235210303662.dat","-f","-l"],
+        }
+    ]
+
+	It is the "args" section that needs to be investigated, tha path should point to the battle file you want to tested
+
+	Make sure the parser file "wotbr2j.py" is selected in the Visual Studio Code editor
 	
-STEP 4.1 - Investigate 'DictPackers.py'
+	Go to "Run" option in the navigation bar and press "Start Debugging"
 
-	Navigate to the folder named 'decompiled_battle' created in step 2
-	Compare the file 'DictPackers.py' with the current used file 'dictpackers.py' in the root folder of this project
-		It is reccomeeded to use: 'Beyond Compare' for this job
-
-	The  file from the previous version has some modifications, that needs to be applied to the new version
-	These changes are expected:
-
-	1) 	The library LOG_ERROR from debug_utils should not be used, the following lines will be uncommented (line numbers can vary)
-			Line 6: #from debug_utils import LOG_ERROR
-			Line 86: #LOG_ERROR('error while packing:', index, metaEntry, str(e))
-	
-	2) In some circumstanses uncompyle adds line break after brackets '[', ex: [None] can be split into two lines and must be corrected manually
-
-	3) The class unpackWthoutChecksum() is added as a custom class and will not exist in the original file
-
-	If the new file is not changed (taking the modifications nemtion above into consideration):
-		The currently used "dictpackers.py" in the root folder of this project can still be used
-
-	If the new file has changes:
-		Rename the newly uncompiled 'DictPackers.py' to 'dictpackers.py' and copy it into the root folder of this project, overwrite existing file
-		Perfom changes to the 'dictpackers.py' file similar as what was done to the previous one:
-			1) Comment out 'LOG_ERROR' lines 
-			2) Fix unwanted line breaks after brackets '[' if any exists
-			3) Add the unpackWthoutChecksum() method as a copy of the unpack() method, but leave out the part performing checksum comparing
-
-STEP 4.2 - Investigate 'battle_results_shared.py' and other files
-
-	Unknown actions...
+	Check the terminal outpur for messages
 
 
 

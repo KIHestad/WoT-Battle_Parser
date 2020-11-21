@@ -12,7 +12,7 @@ from itertools import izip
 VEH_INTERACTION_DETAILS_LEGACY = ('spotted', 'killed', 'hits', 'he_hits', 'pierced', 'damageDealt', 'damageAssisted', 'crits', 'fire') 
 VEH_INTERACTION_DETAILS_INDICES_LEGACY = dict(((x[1], x[0]) for x in enumerate(VEH_INTERACTION_DETAILS_LEGACY))) 
 
-VEHICLE_DEVICE_TYPE_NAMES = ('engine', 'ammoBay', 'fuelTank', 'radio', 'track', 'gun', 'turretRotator', 'surveyingDevice')
+VEHICLE_DEVICE_TYPE_NAMES = ('engine', 'ammoBay', 'fuelTank', 'radio', 'track', 'gun', 'turretRotator', 'surveyingDevice', 'STUN_PLACEHOLDER', 'wheel')
 VEHICLE_TANKMAN_TYPE_NAMES = ('commander', 'driver', 'radioman', 'gunner', 'loader')
 
 VEH_INTERACTION_DETAILS = (
@@ -145,14 +145,14 @@ def convertToFullForm(compactForm):
     brc = battle_results_common #from version 1.10.1.0
 
     #read raw binary data from battle file
-    arenaUniqueID, avatarResults, battle_results, pickled = compactForm
+    arenaUniqueID, avatarResults, fullResultsList, pickled = compactForm
     
     #convert to readable data
-    battle_results = Unpickler.loads(zlib.decompress(battle_results))
+    fullResultsList = Unpickler.loads(zlib.decompress(fullResultsList))
     avatarResults = Unpickler.loads(zlib.decompress(avatarResults))
 
     #split battle_result 
-    battle_results = battle_results.items()[0]
+    battle_results = fullResultsList.items()[0]
     tankId = battle_results[0]
     battle_results = battle_results[1]
 
@@ -175,38 +175,39 @@ def convertToFullForm(compactForm):
            structLen = str(len(brc.BATTLE_RESULTS) + 1) 
            dataLen = str(len(battle_results))
            return 0, {'error': 'Wrong number of items in class: BATTLE_RESULTS (found: {}, expecting {})'.format(dataLen, structLen)}
-           
-        
+
         personal['avatar'] = battle_results = brc.BATTLE_RESULTS_META.unpackWthoutChecksum(battle_results)
 
-        # for vehTypeCompDescr, ownResults in fullResultsList.iteritems():
-        #     vehPersonal = personal[vehTypeCompDescr] = battle_results_data.VEH_FULL_RESULTS.unpackWthoutChecksum(ownResults)
-        #     if type(vehPersonal) is dict:
-        #         try:
-        #             vehPersonal['details'] = brc.VehicleInteractionDetails.fromPacked(vehPersonal['details']).toDict()
-        #         except Exception: 
-        #             return 0, {}
-        #         vehPersonal['isPrematureLeave'] = avatarResults['isPrematureLeave']
-        #         vehPersonal['fairplayViolations'] = avatarResults['fairplayViolations']
+        #for vehTypeCompDescr, ownResults in fullResultsList.iteritems():
+        #   vehPersonal = personal[vehTypeCompDescr] = brs.VEH_FULL_RESULTS.unpackWthoutChecksum(ownResults)            
+        #    if type(vehPersonal) is dict:
+        #        try:
+        #            vehPersonal['details'] = brs.VehicleInteractionDetails.fromPacked(vehPersonal['details']).toDict()
+        #        except Exception: 
+        #            return 0, {'error'}
+        #        vehPersonal['isPrematureLeave'] = avatarResults['isPrematureLeave']
+        #        vehPersonal['fairplayViolations'] = avatarResults['fairplayViolations']
 
-        # commonAsList, playersAsList, vehiclesAsList, avatarsAsList = Unpickler.loads(zlib.decompress(pickled))
-                
-        # fullForm['common'] = brc.COMMON_RESULTS.unpackWthoutChecksum(commonAsList)
-        # #Fix from WoT 1.9.1.0
-        # if 'accountCompDescr' in fullForm['common']:
-        #     del fullForm['common']['accountCompDescr']
+        commonAsList, playersAsList, vehiclesAsList, avatarsAsList = Unpickler.loads(zlib.decompress(pickled))
+        
+        br2jResult['common'] = brc.COMMON_RESULTS.unpackWthoutChecksum(commonAsList)
 
-        # for accountDBID, playerAsList in playersAsList.iteritems():
-        #     fullForm['players'][accountDBID] = battle_results_data.PLAYER_INFO.unpack(playerAsList)
+        #Fix from WoT 1.9.1.0
+        if 'accountCompDescr' in br2jResult['common']:
+           del br2jResult['common']['accountCompDescr']
 
-        # for accountDBID, avatarAsList in avatarsAsList.iteritems():
-        #     fullForm['avatars'][accountDBID] = battle_results_data.AVATAR_PUBLIC_RESULTS.unpackWthoutChecksum(avatarAsList)
+        for accountDBID, playerAsList in playersAsList.iteritems():
+           br2jResult['players'][accountDBID] = brs.PLAYER_INFO_META.unpackWthoutChecksum(playerAsList)
 
-        # for vehicleID, vehiclesInfo in vehiclesAsList.iteritems():
-        #     fullForm['vehicles'][vehicleID] = []
-        #     for vehTypeCompDescr, vehicleInfo in vehiclesInfo.iteritems():
-        #         fullForm['vehicles'][vehicleID].append(battle_results_data.VEH_PUBLIC_RESULTS.unpackWthoutChecksum(vehicleInfo))
+        for accountDBID, avatarAsList in avatarsAsList.iteritems():
+             br2jResult['avatars'][accountDBID] = brs.AVATAR_PUBLIC_RESULTS.unpackWthoutChecksum(avatarAsList)
+
+        for vehicleID, vehiclesInfo in vehiclesAsList.iteritems():
+            br2jResult['vehicles'][vehicleID] = []
+            for vehTypeCompDescr, vehicleInfo in vehiclesInfo.iteritems():
+                br2jResult['vehicles'][vehicleID].append(brs.VEH_PUBLIC_RESULTS.unpackWthoutChecksum(vehicleInfo))
         return 1, br2jResult 
+
     except IndexError, i:
         printmessage(traceback.format_exc(i), 1)
         return 0, {'error': '%s' % i.message}

@@ -10,7 +10,7 @@ from collections import OrderedDict
 from DictPackers import Meta
 from battle_results_constants import BATTLE_RESULT_ENTRY_TYPE as ENTRY_TYPE
 import battle_results_common, battle_results_event, battle_results_frontline, battle_results_random, battle_results_ranked
-  
+
 parser = dict()
 parser['version'] = "1.10.1.3"
 parser['name'] = 'http://wotnumbers.com'
@@ -129,9 +129,9 @@ def main():
         # Validate and unpack personal.avatars data
         validate('private.account', BR_ACCOUNT, brAccount)
         jsonAccount = brAccount = BR_ACCOUNT.unpack(brAccount)
-        # Remove avatarDatageEventList, not Json compatible value
-        if 'avatarDamageEventList' in jsonAccount:
-            del jsonAccount['avatarDamageEventList']
+        # TODO: Can be removed later, testing new method: Remove avatarDatageEventList, not Json compatible value
+        #if 'avatarDamageEventList' in jsonAccount:
+        #    del jsonAccount['avatarDamageEventList']
 
         # Validate and unpack vehicle data
         validate('private.vehicle', BR_VEHICLE, brVehicle)
@@ -314,14 +314,21 @@ def dumpjson(bresult):
     try:
         finalfile = open(filename_target, 'w') 
         if option_format: 
-            finalfile.write(json.dumps(bresult, ensure_ascii=False, skipkeys=True, indent=4)) 
+            finalfile.write(json.dumps(bresult, ensure_ascii=False, skipkeys=True, indent=4, cls=SetEncoder)) 
         else: 
-            finalfile.write(json.dumps(bresult, ensure_ascii=False, skipkeys=True))        
+            finalfile.write(json.dumps(bresult, ensure_ascii=False, skipkeys=True, cls=SetEncoder))        
         finalfile.close()
     except Exception, e:
         if finalfile is not None: 
             finalfile.close() 
         exitwitherror("Exception: ", e, abort=True)
+
+
+class SetEncoder(json.JSONEncoder):
+    def default(self, obj):
+        if isinstance(obj, set):
+            return list(obj)
+        return json.JSONEncoder.default(self, obj)
 
 # Run main() on startup
 if __name__ == '__main__': 

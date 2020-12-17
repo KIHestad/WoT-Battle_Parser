@@ -9,10 +9,10 @@ from itertools import izip
 from collections import OrderedDict
 from DictPackers import Meta
 from battle_results_constants import BATTLE_RESULT_ENTRY_TYPE as ENTRY_TYPE
-import battle_results_common, battle_results_event, battle_results_frontline, battle_results_random, battle_results_ranked
+import battle_results_common, battle_results_frontline, battle_results_random, battle_results_ranked
 
 parser = dict()
-parser['version'] = "1.10.1.3"
+parser['version'] = "1.11.0.0"
 parser['name'] = 'http://wotnumbers.com'
 parser['processingTime'] = int(time.mktime(time.localtime()))
 

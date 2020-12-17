@@ -54,11 +54,11 @@ STEP 2 - Uncompile extracted source files
 	uncompyle6 -o .\_DECOMPILED\battle_results_frontline.py .\battle_results\frontline.pyc
 	uncompyle6 -o .\_DECOMPILED\battle_results_random.py .\battle_results\random.pyc
 	uncompyle6 -o .\_DECOMPILED\battle_results_ranked.py .\battle_results\ranked.pyc
-	uncompyle6 -o .\_DECOMPILED\constants.py .\constants.pyc
-	uncompyle6 -o .\_DECOMPILED\enumerations.py .\enumerations.pyc
+	uncompyle6 -o .\_DECOMPILED\EXTRA\enumerations.py .\enumerations.pyc
+	uncompyle6 -o .\_DECOMPILED\EXTRA\constants.py .\constants.pyc
 	uncompyle6 -o .\_DECOMPILED\EXTRA\badges_common.py .\items\badges_common.pyc
 	uncompyle6 -o .\_DECOMPILED\EXTRA\vehicles.py .\items\vehicles.pyc
-	uncompyle6 -o .\_DECOMPILED\soft_exception.py .\soft_exception.pyc
+	uncompyle6 -o .\_DECOMPILED\EXTRA\soft_exception.py .\soft_exception.pyc
 	@echo done
 
 STEP 3 - Copy decompiled files into source code
@@ -66,7 +66,7 @@ STEP 3 - Copy decompiled files into source code
 	Navigate to the folder named '_DECOMPILED' created in previous step.
 	Copy all the files and the EXTRA-subfolders into the new version folder you just have created in this project
 
-STEP 4 - Fix the main struct file: 'battle_results_common.py'
+STEP 4.1 - Fix the main struct file: 'battle_results_common.py'
 
     The file 'battle_results_common.py' is the main file describing data structure, this has references to some libraries
 	Compare this file with the same file from previous version, you will see in the top 20 lines or so some changes that needs to be done
@@ -74,7 +74,13 @@ STEP 4 - Fix the main struct file: 'battle_results_common.py'
 	A) Comment out the reference to "items.vehicles", go to the EXTRA folder and find this file, copy the relevant classes into the file
 
 	B) Comment out the reference to "items.badges_common", go to the EXTRA folder and find this file, copy the relevant classes into the file
-	
+
+	C) Comment out the reference "from constants import FLAG_ACTION", go to the EXTRA folder and find class in this file, copy into file
+
+STEP 4.2 - Fix the main struct file: 'battle_results_constants.py'
+
+	A) Comment out the reference "from constants import ARENA_BONUS_TYPE", go to the EXTRA folder and find class in this file, copy into file
+
 STEP 5 - Fix the file used for unpacking data: 'DictPackers.py'
 
 	Compare the file 'DictPackers.py' with the same file from the previous version and look for changes

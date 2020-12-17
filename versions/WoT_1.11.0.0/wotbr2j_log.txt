@@ -1,0 +1,90 @@
+2020-12-16 23:53:10 - 
+2020-12-16 23:53:10 - ### WoT Battle Result to Json - version 1.11.0.0 ###
+2020-12-16 23:53:10 - Time: 2020-12-16 23:53:10.466000
+2020-12-16 23:53:10 - Encoding: ascii - mbcs
+2020-12-16 23:53:10 - Logging to file: d:\Dev\WoT Battle Parser\versions\WoT_1.11.0.0\wotbr2j_log.txt
+2020-12-16 23:53:10 - Starting to process file: ./battle_files/WoT_1.11.0.0/71119948450794492.dat
+2020-12-16 23:53:10 - Battle file binary content read, found legacy battle result version: 1
+2020-12-16 23:53:10 - > Successfully validated object: common (found 18 data items)
+2020-12-16 23:53:10 - Detected battle mode: Random
+2020-12-16 23:53:10 - > Successfully validated object: private.account (found 47 data items)
+2020-12-16 23:53:10 - > Successfully validated object: private.vehicle (found 207 data items)
+2020-12-16 23:53:10 - > Successfully validated object: players (found 8 data items)
+2020-12-16 23:53:10 - > Successfully validated object: players.result (found 11 data items)
+2020-12-16 23:53:10 - > Successfully validated object: players.vehicle (found 71 data items)
+2020-12-16 23:53:10 - All data read, preparing result
+2020-12-16 23:53:10 - Creating output file:./battle_files/WoT_1.11.0.0/71119948450794492.json
+2020-12-16 23:53:10 - ### Done ###
+2020-12-16 23:53:10 - 
+2020-12-17 00:15:12 - 
+2020-12-17 00:15:12 - ### WoT Battle Result to Json - version 1.11.0.0 ###
+2020-12-17 00:15:12 - Time: 2020-12-17 00:15:12.054000
+2020-12-17 00:15:12 - Encoding: ascii - mbcs
+2020-12-17 00:15:12 - Logging to file: d:\Dev\WoT Battle Parser\versions\WoT_1.11.0.0\wotbr2j_log.txt
+2020-12-17 00:15:12 - Starting to process file: ./battle_files/WoT_1.11.0.0/71119948450794492.dat
+2020-12-17 00:15:12 - Battle file binary content read, found legacy battle result version: 1
+2020-12-17 00:15:12 - > Successfully validated object: common (found 18 data items)
+2020-12-17 00:15:12 - Detected battle mode: Random
+2020-12-17 00:15:12 - > Successfully validated object: private.account (found 47 data items)
+2020-12-17 00:15:12 - > Successfully validated object: private.vehicle (found 207 data items)
+2020-12-17 00:15:12 - > Successfully validated object: players (found 8 data items)
+2020-12-17 00:15:12 - > Successfully validated object: players.result (found 11 data items)
+2020-12-17 00:15:12 - > Successfully validated object: players.vehicle (found 71 data items)
+2020-12-17 00:15:12 - All data read, preparing result
+2020-12-17 00:15:12 - Creating output file:./battle_files/WoT_1.11.0.0/71119948450794492.json
+2020-12-17 00:15:12 - ### Done ###
+2020-12-17 00:15:12 - 
+2020-12-17 00:27:25 - 
+2020-12-17 00:27:25 - ### WoT Battle Result to Json - version 1.11.0.0 ###
+2020-12-17 00:27:25 - Time: 2020-12-17 00:27:25.496000
+2020-12-17 00:27:25 - Encoding: ascii - mbcs
+2020-12-17 00:27:25 - Logging to file: d:\Dev\WoT Battle Parser\versions\WoT_1.11.0.0\wotbr2j_log.txt
+2020-12-17 00:27:25 - Starting to process file: ./battle_files/WoT_1.11.0.0/71119948450794492.dat
+2020-12-17 00:27:25 - Battle file binary content read, found legacy battle result version: 1
+2020-12-17 00:27:25 - > Successfully validated object: common (found 18 data items)
+2020-12-17 00:27:25 - Detected battle mode: Random
+2020-12-17 00:27:25 - > Successfully validated object: private.account (found 47 data items)
+2020-12-17 00:27:25 - > Successfully validated object: private.vehicle (found 207 data items)
+2020-12-17 00:27:25 - > Successfully validated object: players (found 8 data items)
+2020-12-17 00:27:25 - > Successfully validated object: players.result (found 11 data items)
+2020-12-17 00:27:25 - > Successfully validated object: players.vehicle (found 71 data items)
+2020-12-17 00:27:25 - All data read, preparing result
+2020-12-17 00:27:25 - Creating output file:./battle_files/WoT_1.11.0.0/71119948450794492.json
+2020-12-17 00:27:25 - ### Done ###
+2020-12-17 00:27:25 - 
+2020-12-17 00:28:07 - 
+2020-12-17 00:28:07 - ### WoT Battle Result to Json - version 1.11.0.0 ###
+2020-12-17 00:28:07 - Time: 2020-12-17 00:28:07.231000
+2020-12-17 00:28:07 - Encoding: ascii - mbcs
+2020-12-17 00:28:07 - Logging to file: d:\Dev\WoT Battle Parser\versions\WoT_1.11.0.0\wotbr2j_log.txt
+2020-12-17 00:28:07 - Starting to process file: ./battle_files/WoT_1.11.0.0/71119948450794492.dat
+2020-12-17 00:28:07 - Battle file binary content read, found legacy battle result version: 1
+2020-12-17 00:28:07 - > Successfully validated object: common (found 18 data items)
+2020-12-17 00:28:07 - Detected battle mode: Random
+2020-12-17 00:28:07 - > Successfully validated object: private.account (found 47 data items)
+2020-12-17 00:28:07 - > Successfully validated object: private.vehicle (found 207 data items)
+2020-12-17 00:28:07 - > Successfully validated object: players (found 8 data items)
+2020-12-17 00:28:07 - > Successfully validated object: players.result (found 11 data items)
+2020-12-17 00:28:07 - > Successfully validated object: players.vehicle (found 71 data items)
+2020-12-17 00:28:07 - All data read, preparing result
+2020-12-17 00:28:07 - Creating output file:./battle_files/WoT_1.11.0.0/71119948450794492.json
+2020-12-17 00:28:07 - ### Done ###
+2020-12-17 00:28:07 - 
+2020-12-17 00:31:33 - 
+2020-12-17 00:31:33 - ### WoT Battle Result to Json - version 1.11.0.0 ###
+2020-12-17 00:31:33 - Time: 2020-12-17 00:31:33.250000
+2020-12-17 00:31:33 - Encoding: ascii - mbcs
+2020-12-17 00:31:33 - Logging to file: d:\Dev\WoT Battle Parser\versions\WoT_1.11.0.0\wotbr2j_log.txt
+2020-12-17 00:31:33 - Starting to process file: ./battle_files/WoT_1.11.0.0/71119948450794492.dat
+2020-12-17 00:31:33 - Battle file binary content read, found legacy battle result version: 1
+2020-12-17 00:31:33 - > Successfully validated object: common (found 18 data items)
+2020-12-17 00:31:33 - Detected battle mode: Random
+2020-12-17 00:31:33 - > Successfully validated object: private.account (found 47 data items)
+2020-12-17 00:31:33 - > Successfully validated object: private.vehicle (found 207 data items)
+2020-12-17 00:31:33 - > Successfully validated object: players (found 8 data items)
+2020-12-17 00:31:33 - > Successfully validated object: players.result (found 11 data items)
+2020-12-17 00:31:33 - > Successfully validated object: players.vehicle (found 71 data items)
+2020-12-17 00:31:33 - All data read, preparing result
+2020-12-17 00:31:33 - Creating output file:./battle_files/WoT_1.11.0.0/71119948450794492.json
+2020-12-17 00:31:33 - ### Done ###
+2020-12-17 00:31:33 - 

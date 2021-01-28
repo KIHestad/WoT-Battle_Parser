@@ -48,13 +48,13 @@ STEP 2 - Uncompile extracted source files
 	Run Python decompiler on the following files, just copy the following section paste into the command prompt window:
 
 	uncompyle6 -o .\_DECOMPILED\DictPackers.py .\DictPackers.pyc
+	uncompyle6 -o .\_DECOMPILED\enumerations.py .\enumerations.pyc
 	uncompyle6 -o .\_DECOMPILED\battle_results_constants.py .\battle_results\battle_results_constants.pyc
 	uncompyle6 -o .\_DECOMPILED\battle_results_common.py .\battle_results\battle_results_common.pyc
 	uncompyle6 -o .\_DECOMPILED\battle_results_event.py .\battle_results\event.pyc
 	uncompyle6 -o .\_DECOMPILED\battle_results_frontline.py .\battle_results\frontline.pyc
 	uncompyle6 -o .\_DECOMPILED\battle_results_random.py .\battle_results\random.pyc
 	uncompyle6 -o .\_DECOMPILED\battle_results_ranked.py .\battle_results\ranked.pyc
-	uncompyle6 -o .\_DECOMPILED\EXTRA\enumerations.py .\enumerations.pyc
 	uncompyle6 -o .\_DECOMPILED\EXTRA\constants.py .\constants.pyc
 	uncompyle6 -o .\_DECOMPILED\EXTRA\badges_common.py .\items\badges_common.pyc
 	uncompyle6 -o .\_DECOMPILED\EXTRA\vehicles.py .\items\vehicles.pyc
@@ -86,6 +86,8 @@ STEP 5 - Fix the file used for unpacking data: 'DictPackers.py'
 	Compare the file 'DictPackers.py' with the same file from the previous version and look for changes
 
 	A) Comment out the reference to "debug_utils", this part is not needed
+
+	B) Comment out the LOG_ERROR statements
 
 STEP 6 - Testing
 

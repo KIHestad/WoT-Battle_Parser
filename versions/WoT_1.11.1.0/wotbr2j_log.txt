@@ -16,3 +16,33 @@
 2021-01-28 19:42:48 - Creating output file:./battle_files/WoT_1.11.1.0/39304230885065049.json
 2021-01-28 19:42:48 - ### Done ###
 2021-01-28 19:42:48 - 
+2021-03-05 22:18:45 - 
+2021-03-05 22:18:45 - ### WoT Battle Result to Json - version 1.11.1.0 ###
+2021-03-05 22:18:45 - Time: 2021-03-05 22:18:45.443000
+2021-03-05 22:18:45 - Encoding: ascii - mbcs
+2021-03-05 22:18:45 - Logging to file: d:\Dev\WoT Battle Parser\versions\WoT_1.11.1.0\wotbr2j_log.txt
+2021-03-05 22:18:45 - Starting to process file: ./battle_files/WoT_1.12.0.0/249762553175344.dat
+2021-03-05 22:18:45 - Battle file binary content read, found legacy battle result version: 1
+2021-03-05 22:18:45 - > Successfully validated object: common (found 18 data items)
+2021-03-05 22:18:45 - Detected battle mode: Random
+2021-03-05 22:18:45 - Wrong number of data items for object: private.account (found: 43, expecting 47)
+2021-03-05 22:19:01 - 
+2021-03-05 22:19:01 - ### WoT Battle Result to Json - version 1.11.1.0 ###
+2021-03-05 22:19:01 - Time: 2021-03-05 22:19:01.052000
+2021-03-05 22:19:01 - Encoding: ascii - mbcs
+2021-03-05 22:19:01 - Logging to file: d:\Dev\WoT Battle Parser\versions\WoT_1.11.1.0\wotbr2j_log.txt
+2021-03-05 22:19:01 - Starting to process file: ./battle_files/WoT_1.12.0.0/249762553175344.dat
+2021-03-05 22:19:01 - Battle file binary content read, found legacy battle result version: 1
+2021-03-05 22:19:01 - > Successfully validated object: common (found 18 data items)
+2021-03-05 22:19:01 - Detected battle mode: Random
+2021-03-05 22:19:01 - Wrong number of data items for object: private.account (found: 43, expecting 47)
+2021-03-05 22:19:02 - 
+2021-03-05 22:19:02 - ### WoT Battle Result to Json - version 1.11.1.0 ###
+2021-03-05 22:19:02 - Time: 2021-03-05 22:19:02.575000
+2021-03-05 22:19:02 - Encoding: ascii - mbcs
+2021-03-05 22:19:02 - Logging to file: d:\Dev\WoT Battle Parser\versions\WoT_1.11.1.0\wotbr2j_log.txt
+2021-03-05 22:19:02 - Starting to process file: ./battle_files/WoT_1.12.0.0/249762553175344.dat
+2021-03-05 22:19:02 - Battle file binary content read, found legacy battle result version: 1
+2021-03-05 22:19:02 - > Successfully validated object: common (found 18 data items)
+2021-03-05 22:19:02 - Detected battle mode: Random
+2021-03-05 22:19:02 - Wrong number of data items for object: private.account (found: 43, expecting 47)

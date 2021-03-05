@@ -89,7 +89,11 @@ STEP 5 - Fix the file used for unpacking data: 'DictPackers.py'
 
 	B) Comment out the LOG_ERROR statements
 
-STEP 6 - Testing
+STEP 6 - Set new version in: 'wptBr2j.py'
+
+	A) Set same version as WoT game version
+
+STEP 7 - Testing
 
 	Make sure you play one battle using WoT, stay until battle is done and ensure you get the after battle stats displayed
 	Do not close the WoT game client, closing or restarting game client might delete battle files

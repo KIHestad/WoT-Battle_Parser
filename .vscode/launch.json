@@ -10,7 +10,7 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "args":["./battle_files/WoT_1.13.0.0/271224514413252.dat","-f","-l"],
+            "args":["./battle_files/WoT_1.14.1.0/4407720411866254.dat","-f","-l"],
         }
     ]
 }

@@ -1,0 +1,18 @@
+2021-08-12 03:27:59 - 
+2021-08-12 03:27:59 - ### WoT Battle Result to Json - version 1.14.0.0 ###
+2021-08-12 03:27:59 - Time: 2021-08-12 03:27:59.828000
+2021-08-12 03:27:59 - Encoding: ascii - mbcs
+2021-08-12 03:27:59 - Logging to file: d:\Dev\WoT Battle Parser\versions\WoT_1.14.0.0\wotbr2j_log.txt
+2021-08-12 03:27:59 - Starting to process file: ./battle_files/WoT_1.14.0.0/1691458534142985.dat
+2021-08-12 03:27:59 - Battle file binary content read, found legacy battle result version: 1
+2021-08-12 03:28:00 - > Successfully validated object: common (found 18 data items)
+2021-08-12 03:28:00 - Detected battle mode: Random
+2021-08-12 03:28:00 - > Successfully validated object: private.account (found 44 data items)
+2021-08-12 03:28:00 - > Successfully validated object: private.vehicle (found 215 data items)
+2021-08-12 03:28:00 - > Successfully validated object: players (found 8 data items)
+2021-08-12 03:28:00 - > Successfully validated object: players.result (found 11 data items)
+2021-08-12 03:28:00 - > Successfully validated object: players.vehicle (found 73 data items)
+2021-08-12 03:28:00 - All data read, preparing result
+2021-08-12 03:28:00 - Creating output file:./battle_files/WoT_1.14.0.0/1691458534142985.json
+2021-08-12 03:28:00 - ### Done ###
+2021-08-12 03:28:00 - 

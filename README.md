@@ -1,8 +1,8 @@
-# World of Tanks battle parser #
+# World of Tanks battle parser
 
 System for extracting battle data procuced by World of Tanks game client after each battle.
 
-### About Wot Numbers ###
+## About Wot Numbers
 
-* Author: BadButton
+* Author: KI Hestad (aka: BadButton)
 * Website: http://wotnumbers.com

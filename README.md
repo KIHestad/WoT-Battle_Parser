@@ -4,5 +4,5 @@ System for extracting battle data procuced by World of Tanks game client after e
 
 ### About Wot Numbers ###
 
-* Author: BadButton
-* Website: http://wotnumbers.com
+* Author: KI Hestad (aka BadButton)
+* Website: https://wotnumbers.com

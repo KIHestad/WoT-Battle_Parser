@@ -1,0 +1,33 @@
+2022-06-02 02:00:46 - 
+2022-06-02 02:00:46 - ### WoT Battle Result to Json - version 1.17.0.0 ###
+2022-06-02 02:00:46 - Time: 2022-06-02 02:00:46.751000
+2022-06-02 02:00:46 - Encoding: ascii - mbcs
+2022-06-02 02:00:46 - Logging to file: D:\Dev\__WotNumbers_GITHUB\WoT-Battle_Parser\versions\WoT_1.17.0.0\wotbr2j_log.txt
+2022-06-02 02:00:46 - Starting to process file: ./battle_files/WoT_1.17.0.0/4169633214488456.dat
+2022-06-02 02:00:46 - Battle Result file not found or no access to file: ./battle_files/WoT_1.17.0.0/4169633214488456.dat
+2022-06-02 02:00:46 - Creating output file:./battle_files/WoT_1.17.0.0/4169633214488456.json
+2022-06-02 02:01:49 - 
+2022-06-02 02:01:49 - ### WoT Battle Result to Json - version 1.17.0.0 ###
+2022-06-02 02:01:49 - Time: 2022-06-02 02:01:49.036000
+2022-06-02 02:01:49 - Encoding: ascii - mbcs
+2022-06-02 02:01:49 - Logging to file: D:\Dev\__WotNumbers_GITHUB\WoT-Battle_Parser\versions\WoT_1.17.0.0\wotbr2j_log.txt
+2022-06-02 02:01:49 - Starting to process file: D:\Temp\4169633214488456.dat
+2022-06-02 02:01:49 - Battle file binary content read, found legacy battle result version: 1
+2022-06-02 02:03:26 - 
+2022-06-02 02:03:26 - ### WoT Battle Result to Json - version 1.17.0.0 ###
+2022-06-02 02:03:26 - Time: 2022-06-02 02:03:26.728000
+2022-06-02 02:03:26 - Encoding: ascii - mbcs
+2022-06-02 02:03:26 - Logging to file: D:\Dev\__WotNumbers_GITHUB\WoT-Battle_Parser\versions\WoT_1.17.0.0\wotbr2j_log.txt
+2022-06-02 02:03:26 - Starting to process file: D:\Temp\4169633214488456.dat
+2022-06-02 02:03:26 - Battle file binary content read, found legacy battle result version: 1
+2022-06-02 02:03:26 - > Successfully validated object: common (found 18 data items)
+2022-06-02 02:03:26 - Detected battle mode: Random
+2022-06-02 02:03:26 - > Successfully validated object: private.account (found 49 data items)
+2022-06-02 02:03:26 - > Successfully validated object: private.vehicle (found 219 data items)
+2022-06-02 02:03:26 - > Successfully validated object: players (found 8 data items)
+2022-06-02 02:03:26 - > Successfully validated object: players.result (found 13 data items)
+2022-06-02 02:03:26 - > Successfully validated object: players.vehicle (found 75 data items)
+2022-06-02 02:03:26 - All data read, preparing result
+2022-06-02 02:03:26 - Creating output file:D:\Temp\4169633214488456.json
+2022-06-02 02:03:26 - ### Done ###
+2022-06-02 02:03:26 - 

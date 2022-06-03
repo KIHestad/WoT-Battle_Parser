@@ -2,7 +2,7 @@
     // Use IntelliSense to learn about possible attributes.
     // Hover to view descriptions of existing attributes.
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
+    "version": "0.3.0",
     "configurations": [
         {
             "name": "Python: Current File",
@@ -10,7 +10,7 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "args":["./battle_files/WoT_1.15.0.0/4402905758116487.dat","-f","-l"],
+            "args":["./battle_files/WoT_1.17.0.0/4169633214488456.dat","-f","-l"],
         }
     ]
 }

@@ -1,0 +1,29 @@
+2022-04-14 01:32:17 - 
+2022-04-14 01:32:17 - ### WoT Battle Result to Json - version 1.16.1.0 ###
+2022-04-14 01:32:17 - Time: 2022-04-14 01:32:17.071000
+2022-04-14 01:32:17 - Encoding: ascii - mbcs
+2022-04-14 01:32:17 - Logging to file: d:\Dev\__WotNumbers_GITHUB\WoT-Battle_Parser\versions\WoT_1.16.1.0\wotbr2j_log.txt
+2022-04-14 01:32:17 - Starting to process file: ./battle_files/WoT_1.16.1.0/2151496797345614.dat
+2022-04-14 01:32:17 - Battle file binary content read, found legacy battle result version: 1
+2022-04-14 01:32:17 - > Successfully validated object: common (found 18 data items)
+2022-04-14 01:32:17 - Detected battle mode: Random
+2022-04-14 01:32:17 - > Successfully validated object: private.account (found 49 data items)
+2022-04-14 01:32:17 - > Successfully validated object: private.vehicle (found 217 data items)
+2022-04-14 01:32:17 - > Successfully validated object: players (found 8 data items)
+2022-04-14 01:32:17 - > Successfully validated object: players.result (found 13 data items)
+2022-04-14 01:32:17 - > Successfully validated object: players.vehicle (found 74 data items)
+2022-04-14 01:32:17 - All data read, preparing result
+2022-04-14 01:32:17 - Creating output file:./battle_files/WoT_1.16.1.0/2151496797345614.json
+2022-04-14 01:32:17 - ### Done ###
+2022-04-14 01:32:17 - 
+2022-06-02 02:02:29 - 
+2022-06-02 02:02:29 - ### WoT Battle Result to Json - version 1.16.1.0 ###
+2022-06-02 02:02:29 - Time: 2022-06-02 02:02:29.140000
+2022-06-02 02:02:29 - Encoding: ascii - mbcs
+2022-06-02 02:02:29 - Logging to file: D:\Dev\__WotNumbers_GITHUB\WoT-Battle_Parser\versions\WoT_1.16.1.0\wotbr2j_log.txt
+2022-06-02 02:02:29 - Starting to process file: D:\Temp\4169633214488456.dat
+2022-06-02 02:02:29 - Battle file binary content read, found legacy battle result version: 1
+2022-06-02 02:02:29 - > Successfully validated object: common (found 18 data items)
+2022-06-02 02:02:29 - Detected battle mode: Random
+2022-06-02 02:02:29 - > Successfully validated object: private.account (found 49 data items)
+2022-06-02 02:02:29 - Wrong number of data items for object: private.vehicle (found: 219, expecting 217)
